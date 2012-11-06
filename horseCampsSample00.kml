@@ -1,0 +1,145 @@
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>HorseCamps Kml File</name>
+    <open>1</open>
+    <StyleMap id="green-pushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#green-pushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#green-pushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="green-pushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="green-pushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="yellow-pushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#yellow-pushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#yellow-pushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="yellow-pushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="yellow-pushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Horse Camps</name>
+      <open>1</open>
+      <description>Overnight Horse Camps in Kentucky</description>
+      <Folder>
+        <name>PublicCamps</name>
+        <open>1</open>
+        <description>green-pushpin</description>
+        <Placemark>
+          <name>Shelby Trails Park</name>
+          <description>Northwestern Shelby County, near Simpsonville. 20 miles mapped tails. Primitive and Horse Trailer Camping, facilities under construction. Guided trail rides and horse rental.&lt;br&gt;
+&lt;a href="http://shelbycountyparks.com/Shelby-Trails-Park.html"&gt; link to Shelby Parks website &lt;/a&gt;&lt;br&gt;
+5063 Aiken Road&lt;br&gt;
+Todd's Point KY 40067&lt;br&gt;
+502.633.5059</description>
+          <LookAt>
+            <longitude>-85.356896</longitude>
+            <latitude> 38.285614</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#green-pushpin</styleUrl>
+          <Point>
+            <coordinates>-85.356896, 38.285614,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>PrivateCamps</name>
+        <open>1</open>
+        <description>yellow-pushpin</description>
+        <Placemark>
+          <name>Big Red Stables</name>
+          <description>1500 scenic acres to ride on by yourself, or per hour rate for rentals. Call for reservations.&lt;br&gt;
+&lt;a href="http://www.bigredstablesky.com/"&gt; link to Big Red Stables website &lt;/a&gt;&lt;br&gt;
+1605 Jackson Pike&lt;br&gt;
+Harrodsburg KY 40330&lt;br&gt;
+859.734.3118</description>
+          <LookAt>
+            <longitude> 37.827743</longitude>
+            <latitude> 37.827743</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#yellow-pushpin</styleUrl>
+          <Point>
+            <coordinates> 37.827743, 37.827743,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Blair Creek Horse Camp</name>
+          <description>The Blair Creek Resort is owned and managed by Mary Strunk and
+son Derrick Strunk. We are located in South Eastern Kentucky in the
+Big South Fork National River and Recreational area.&lt;br&gt;
+&lt;a href="http://www.blaircreekresort.com"&gt; link to Blair Creek Resort website &lt;/a&gt;&lt;br&gt;
+3224 Mine 18 Road &lt;br&gt;
+Strunk KY 42649&lt;br&gt;
+877.209.1012</description>
+          <LookAt>
+            <longitude>-84.496721</longitude>
+            <latitude> 36.660358</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#yellow-pushpin</styleUrl>
+          <Point>
+            <coordinates>-84.496721, 36.660358,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,52 @@
+<html><head><title>ExcelToKml - Row Editing</title></head>
+<body>
+<p>
+<b> Row Editing </b>
+</p>
+<p>Each row on each sheet of the Excel Data is shown on the <a href="other.html#WindowLayout">Top Left</a> portion of the program window, as a form. Most columns of the row are shown as one line edit controls, with the description shown as a multiline edit, to allow longer descriptions. All the edit controls have labels at the left, with column names.
+</p>
+<ul>
+<li>
+<p>
+<b>Top of form</b> is a label, with the Opened Excel File Directory and Name, and the sheet name within the file.
+</p>
+</li>
+<li>
+<p id="SheetControls">
+<b>Sheet Controls - </b>
+The next line contains sheet control pushbuttons, to go backwards (<b>prev</b>) and forwards (<b>next</b>) through the sheets, a sheet number label, and a dropdown list to select the icon to use for display of the Placemarks of that sheet. 
+</p>
+<p>
+You should select a different <b>icon</b> for each sheet. The selected icon is not saved in the Excel data, and will have to be reselected each time the program is used. The set of icons are "baked in" the program, and changing them requires changing program code.
+</p>
+</li>
+<li id=RowControls>
+<b>Row Controls - </b>
+The bottom of the form contains four pushbuttons, and a row number label. The buttons are to go backwards (<b>prev</b>) and forwards (<b>next</b>) through the rows on the sheet, and <b>Undo</b> and <b>Update</b> row buttons. The Undo and Update row buttons are "greyed out" and disabled unless row data has been changed. 
+<p>
+When row data is changed, the row is <b>locked</b>, and the <b>prev</b> and <b>next</b> row and sheet pushbuttons are "greyed out" and disabled. You will not be able to move between rows or sheets until row changes are <b>Undo</b>ne or <b>Update</b>d by one of the pushbuttons.
+</p>
+</li>
+<li id=EditRowData>
+<p>
+<b>Changing row data</b> is done by typing new data into one or more of the edit controls. The program will detect the change, and <b>lock</b> the row, disabling the prev and next pushbuttons, enabling the <b>Undo</b> and <b>Update</b> pushbuttons. <b>Undo</b> will undo all changes to the row, reverting the edit controls for the row to stored values. <b>Update</b> will replace stored data for the row with data from the edit controls. 
+</p>
+<p>
+There is only one level of <b>Undo</b>. Undo is only possible between changing the row data by editing, and <b>Updat</b>ing the row. Once changes to a row have been <b>Update</b>d, by pressing the pushbutton, they cannot be <b>Undo</b>ne.
+</p>
+<p>
+After a row is <b>Update</b>d, the Excel data will be flagged as changed, and can be Saved to a file with <a  href="excelMenu.html#ExcelSave">Excel Save</a> or <a href="excelMenu.html#ExcelSaveAs">Excel Save As</a>. If the changed Excel data is not saved before <a  href="excelMenu.html#ExcelQuit">Quiting</a> the program, the Program will ask if you want to save data before Quiting.
+</p>
+</li>
+<li id="Lookup">
+<p>
+<b>Lookup - </b>
+To the right of the Longitude and Latitude edit controls is a <b>Lookup</b> pushbutton. If a row does not have Longitude or Latitude data, but does have enough Street, Town, State, Zip data for a postal address, pressing this button will attempt to use a Google web service to lookup a Longitude and Latitiude for the postal address. If it fails, an error message will be produced. If it succeeds, the Longitude and Latitude edit controls will be filled with the new values, and the row will be flagged as changed, the row will be <b>Locked</b> and require <b>Undo</b> or <b>Update</b>. The computer must be connected to the internet to use this button.
+</p>
+</li>
+</ul>
+<ul>
+<li><a href="index.html">Index</a> ExcelToKml - index
+</li>
+</ul>
+</body></html>

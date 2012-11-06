@@ -1,0 +1,14 @@
+    firstNameColumnIndex    = 0
+    lastNameColumnIndex     = 1
+    descriptionColumnIndex  = 2
+    streetColumnIndex       = 3
+    townColumnIndex         = 4
+    stateColumnIndex        = 5
+    zipColumnIndex          = 6
+    countyColumnIndex       = 7
+    telephoneColumnIndex    = 8
+    eMailColumnIndex        = 9
+    websiteColumnIndex      = 10
+    latitudeColumnIndex     = 11
+    longitudeColumnIndex    = 12
+

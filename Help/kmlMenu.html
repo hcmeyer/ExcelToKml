@@ -1,0 +1,37 @@
+<html><head><title>ExcelToKml - Kml Menu</title></head>
+<body>
+<p>The <b>Kml Menu</b> and Toolbar Buttons are to Convert Excel to Kml data and Save Kml files. The ExcelToKml program does not read Kml files, but produces them from the Excel data. After production, they can saved to a Kml File with the same base name as the Excel File, with a .kml extention, or a different file name, with a .kml extention. The <b>Kml</b> Convert and <b>Geo</b>Code Check functions are also on this menu and toolbar.
+</p>
+<p>
+After the Kml data has been produced, the Kml data is noted as changed. If the Kml data is not saved to a .kml file before Quiting the program, the Program will ask if you want to save data before Quiting.
+</p>
+<p>
+The Kml data cannot be edited by the ExcelToKml program. The Kml data is shown in the <a href="other.html#WindowLayout">Top Right</a> region of the program window for display only. Any editing must be done to the Excel row data, then the Kml file converted from that data after editing.
+</p>
+<ul>
+<li id="KmlConvert">
+<p>
+<b>Kml</b> - Convert the Excel row data to a Kml file. This button will open a Dialog box, asking for a Label to be used for the outer container folder in the Kml file. The converted data will be displayed in the <a href="other.html#WindowLayout">Top Right</a> portion of the program window in a Tree Widget. Branches of the Tree can be expanded and contracted by clicking on them. The conversion does not save the Kml data to a file, the Kml Save or Kml Save As must be used. Any rows with missing or invalid Latitude or Longitude data will be skipped in the Kml conversion, with a warning message for the row. 
+</p>
+</li>
+<li id="GeoCodeCheck">
+<p>
+<b>Geo</b> - GeoCode check. Check the rows for valid Latitude and Longitude. A dialog box will pop up, asking if to start checking at the currently displayed row, or the first row, on the first sheet. The check will stop at the first invalid row found. This is to allow corrections or lookup of invalid Latitude or Longitude in a row, and continuing forward. If a row cannot be corrected, skip forward to the next row, and continue. Any rows with missing or invalid data will be skipped in the Kml conversion, with a warning message.
+</p>
+</li>
+<li id="KmlSave">
+<p>
+<b>Kml Save</b> - Save the Kml file, with the same base name, and the same directory, as the Opened Excel File. This will not allow selection of file name or directory, and the file will have a .kml extention. It is enabled if Kml data has been converted, otherwise it will be "greyed out" and is disabled.
+</p>
+</li>
+<li id="KmlSaveAs">
+<p>
+<b>Kml Save As</b> - Save the Kml file, with a different name, or in a different directory. This will allow selection of file name or directory, by opening a file dialog to pick what name or directory to Save to. It is enabled at if Kml data has been converted, otherwise it will be "greyed out" and is disabled.
+</p>
+</li>
+</ul>
+<ul>
+<li><a href="index.html">Index</a> ExcelToKml - index
+</li>
+</ul>
+</body></html>

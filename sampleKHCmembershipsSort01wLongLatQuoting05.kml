@@ -1,0 +1,937 @@
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>sampleKHCmembershipsSort01wLongLat Kml File</name>
+    <open>1</open>
+    <StyleMap id="BluePushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#BluePushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#BluePushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="BluePushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="BluePushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="GreenPushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#GreenPushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#GreenPushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="GreenPushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="GreenPushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="LightBluePushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#LightBluePushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#LightBluePushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="LightBluePushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="LightBluePushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="PinkPushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#PinkPushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#PinkPushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="PinkPushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="PinkPushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="PurplePushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#PurplePushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#PurplePushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="PurplePushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="PurplePushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="RedPushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#RedPushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#RedPushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="RedPushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="RedPushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>sampleKHCmembershipsSort01wLongLat</name>
+      <open>1</open>
+      <description>fifth quoting test</description>
+      <Folder>
+        <name>BusinessMembers</name>
+        <open>1</open>
+        <description>BluePushpin</description>
+        <Placemark>
+          <name>Angela Spiers</name>
+          <description>&lt;a href="mailto:spiers.angela@gmail.com"&gt; spiers.angela@gmail.com &lt;/a&gt;&lt;br&gt;
+2590 Jacks Creek Pike&lt;br&gt;
+Lexington KY 40515 Fayette Co.&lt;br&gt;
+(859) 948-8644</description>
+          <LookAt>
+            <longitude>-84.415930</longitude>
+            <latitude> 37.916132</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.415930, 37.916132,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Arnold Kirkpatrick</name>
+          <description>&lt;a href="mailto:Arnold@Kirkfarms.com"&gt; Arnold@Kirkfarms.com &lt;/a&gt;&lt;br&gt;
+&lt;a href="http://Kirkfarms.com"&gt; http://Kirkfarms.com &lt;/a&gt;&lt;br&gt;
+P. O. Box 580&lt;br&gt;
+Lexington KY 40588 Fayette Co.&lt;br&gt;
+(859) 231-8444</description>
+          <LookAt>
+            <longitude>-84.500000</longitude>
+            <latitude> 38.050000</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.500000, 38.050000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Stephen Magee</name>
+          <description>&lt;a href="mailto:smagee@koettersmith.com"&gt; smagee@koettersmith.com &lt;/a&gt;&lt;br&gt;
+&lt;a href="http://www.koettersmith.com"&gt; http://www.koettersmith.com &lt;/a&gt;&lt;br&gt;
+8991 Louis Smith Road&lt;br&gt;
+Borden IN 47106 Floyd Co.&lt;br&gt;
+(812) 923-5111</description>
+          <LookAt>
+            <longitude>-85.937400</longitude>
+            <latitude> 38.404052</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.937400, 38.404052,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>FamilyMembers</name>
+        <open>1</open>
+        <description>GreenPushpin</description>
+        <Placemark>
+          <name>Edward &amp; Lucinda Martin</name>
+          <description>&lt;a href="mailto:woomar@fuse.net"&gt; woomar@fuse.net &lt;/a&gt;&lt;br&gt;
+2364 Grandview Rd&lt;br&gt;
+Alexandria KY 41001 Campbell Co.&lt;br&gt;
+(859) 635-7084</description>
+          <LookAt>
+            <longitude>-84.350057</longitude>
+            <latitude> 38.963789</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#GreenPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.350057, 38.963789,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Renee Roberts</name>
+          <description>&lt;a href="mailto:renee@gtown.org"&gt; renee@gtown.org &lt;/a&gt;&lt;br&gt;
+4058 Long Lick Pike&lt;br&gt;
+Stamping Ground KY 40379 
+
+Scott Co.&lt;br&gt;
+(859) 608-1549</description>
+          <LookAt>
+            <longitude>-84.686335</longitude>
+            <latitude> 38.271739</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#GreenPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.686335, 38.271739,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Carol &amp; Jeff Sole</name>
+          <description>&lt;a href="mailto:kysoles@hughes.net"&gt; kysoles@hughes.net &lt;/a&gt;&lt;br&gt;
+139 Stockton Rd.&lt;br&gt;
+Frankfort KY 40601 Franklin Co.&lt;br&gt;
+(502) 545-0850</description>
+          <LookAt>
+            <longitude>-85.000349</longitude>
+            <latitude> 38.192849</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#GreenPushpin</styleUrl>
+          <Point>
+            <coordinates>-85.000349, 38.192849,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Bryan Kellermann</name>
+          <description>&lt;a href="mailto:bkellermann@fuse.net"&gt; bkellermann@fuse.net &lt;/a&gt;&lt;br&gt;
+3778 New Richmond Rd.&lt;br&gt;
+California KY 41007 Campbell Co.&lt;br&gt;
+(859) 991-6102</description>
+          <LookAt>
+            <longitude>-84.302686</longitude>
+            <latitude> 38.946682</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#GreenPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.302686, 38.946682,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Charles &amp; Patricia Parker</name>
+          <description>&lt;a href="mailto:ccp2468@aol.com"&gt; ccp2468@aol.com &lt;/a&gt;&lt;br&gt;
+6212 Mary Ingles Hwy&lt;br&gt;
+Melbourne KY 41059 Campbell Co.</description>
+          <LookAt>
+            <longitude>-84.340775</longitude>
+            <latitude> 39.022555</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#GreenPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.340775, 39.022555,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Beth &amp; Bruno Lanman</name>
+          <description>&lt;a href="mailto:giddyup2@gmail.com"&gt; giddyup2@gmail.com &lt;/a&gt;&lt;br&gt;
+952 Spring St.&lt;br&gt;
+Covington KY 41016 Kenton Co.</description>
+          <LookAt>
+            <longitude>-84.529845</longitude>
+            <latitude> 39.089389</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#GreenPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.529845, 39.089389,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>David &amp; Patti Rust</name>
+          <description>&lt;a href="mailto:d.rust@insightbb.com"&gt; d.rust@insightbb.com &lt;/a&gt;&lt;br&gt;
+5958 Crystal View&lt;br&gt;
+Cold Spring KY 41076 Campbell Co.</description>
+          <LookAt>
+            <longitude>-84.446399</longitude>
+            <latitude> 39.013757</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#GreenPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.446399, 39.013757,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Dan &amp; Cathy Feldmann</name>
+          <description>&lt;a href="mailto:dt514@fuse.net"&gt; dt514@fuse.net &lt;/a&gt;&lt;br&gt;
+113 Lake Pk Dr.&lt;br&gt;
+Alexandria KY 41001 Campbell Co.</description>
+          <LookAt>
+            <longitude>-84.378603</longitude>
+            <latitude> 38.960256</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#GreenPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.378603, 38.960256,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>FarmMembers</name>
+        <open>1</open>
+        <description>LightBluePushpin</description>
+        <Placemark>
+          <name>Jan Weber</name>
+          <description>&lt;a href="mailto:janmweber@gmail.com"&gt; janmweber@gmail.com &lt;/a&gt;&lt;br&gt;
+339 Iron Works Rd.&lt;br&gt;
+Paris KY 40361 
+
+Bourbon Co.&lt;br&gt;
+(859) 987-4654</description>
+          <LookAt>
+            <longitude>-84.283115</longitude>
+            <latitude> 38.114563</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#LightBluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.283115, 38.114563,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Ginger Sanders</name>
+          <description>&lt;a href="mailto:gingers@sascoatings.com"&gt; gingers@sascoatings.com &lt;/a&gt;&lt;br&gt;
+&lt;a href="http://www.sasglobal.com"&gt; http://www.sasglobal.com &lt;/a&gt;&lt;br&gt;
+1026 Anderson City Road&lt;br&gt;
+Lawrenceburg KY 40342 Anderson Co.&lt;br&gt;
+(859) 433-6491</description>
+          <LookAt>
+            <longitude>-84.970235</longitude>
+            <latitude> 37.987202</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#LightBluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.970235, 37.987202,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>HorseRescueMembers</name>
+        <open>1</open>
+        <description>PinkPushpin</description>
+        <Placemark>
+          <name>Sally Test</name>
+          <description>&lt;a href="mailto:sally@test.com"&gt; sally@test.com &lt;/a&gt;&lt;br&gt;
+1500 Bull Lea &lt;br&gt;
+Lexington KY 40511 Fayette Co.&lt;br&gt;
+(859) 367-0509</description>
+          <LookAt>
+            <longitude>-84.491493</longitude>
+            <latitude> 38.087720</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PinkPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.491493, 38.087720,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>IndividualMembers</name>
+        <open>1</open>
+        <description>PurplePushpin</description>
+        <Placemark>
+          <name>Mary Ann Wells</name>
+          <description>&lt;a href="mailto:mawells@connectgradd.net"&gt; mawells@connectgradd.net &lt;/a&gt;&lt;br&gt;
+6421 St. Rt. 758&lt;br&gt;
+Sturgis KY 42459 Union Co.&lt;br&gt;
+(270) 333-5338</description>
+          <LookAt>
+            <longitude>-87.983914</longitude>
+            <latitude> 37.546714</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-87.983914, 37.546714,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Peggy Entrekin</name>
+          <description>&lt;a href="mailto:Peggy0471@gmail.com"&gt; Peggy0471@gmail.com &lt;/a&gt;&lt;br&gt;
+9125 Clifton Rd&lt;br&gt;
+Frankfort KY 40601 Franklin Co.&lt;br&gt;
+(859) 312-0471</description>
+          <LookAt>
+            <longitude>-84.832739</longitude>
+            <latitude> 38.104292</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.832739, 38.104292,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Christian Frolund</name>
+          <description>&lt;a href="mailto:chris@frolund.com"&gt; chris@frolund.com &lt;/a&gt;&lt;br&gt;
+791 Piney Grove Rd&lt;br&gt;
+Franklin NC 28734</description>
+          <LookAt>
+            <longitude>-83.378983</longitude>
+            <latitude> 35.239012</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.378983, 35.239012,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Leslie Perry-Collins</name>
+          <description>&lt;a href="mailto:lrp_15@hotmail.com"&gt; lrp_15@hotmail.com &lt;/a&gt;&lt;br&gt;
+6252 US Highway 68&lt;br&gt;
+Maysville KY 41056 
+
+Mason Co.&lt;br&gt;
+(606) 776-5855</description>
+          <LookAt>
+            <longitude>-83.824056</longitude>
+            <latitude> 38.567434</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.824056, 38.567434,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Philip Sims</name>
+          <description>&lt;a href="mailto:simsx4@bellsouth.net"&gt; simsx4@bellsouth.net &lt;/a&gt;&lt;br&gt;
+2000 Stamping Ground Rd.&lt;br&gt;
+Georgetown Kentucky 40324 Scott Co.&lt;br&gt;
+(859) 983-4621</description>
+          <LookAt>
+            <longitude>-84.637550</longitude>
+            <latitude> 38.241375</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.637550, 38.241375,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Nina Morris</name>
+          <description>&lt;a href="mailto:gnmorrisjd@bellsouth.net"&gt; gnmorrisjd@bellsouth.net &lt;/a&gt;&lt;br&gt;
+10920 Cedar Creek Rd&lt;br&gt;
+Louisville KY 40229 Jefferson Co.&lt;br&gt;
+502-239-6782</description>
+          <LookAt>
+            <longitude>-85.626242</longitude>
+            <latitude> 38.088595</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.626242, 38.088595,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Mark Conley</name>
+          <description>PO Box 23&lt;br&gt;
+Mousie KY 41839 Knott Co.</description>
+          <LookAt>
+            <longitude>-82.853293</longitude>
+            <latitude> 37.433398</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-82.853293, 37.433398,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Rita Ellis</name>
+          <description>3881 Jackson Bridge Rd.&lt;br&gt;
+Bowling Green KY 42101 Warren Co.</description>
+          <LookAt>
+            <longitude>-86.633792</longitude>
+            <latitude> 37.028594</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-86.633792, 37.028594,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Freda Ellis</name>
+          <description>3903 Jackson Bridge Rd.&lt;br&gt;
+Bowling Green KY 42101 Warren Co.</description>
+          <LookAt>
+            <longitude>-86.634174</longitude>
+            <latitude> 37.028592</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-86.634174, 37.028592,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Erin Perdue</name>
+          <description>&lt;a href="mailto:horsinaround@bellsouth.net"&gt; horsinaround@bellsouth.net &lt;/a&gt;&lt;br&gt;
+150 See Road&lt;br&gt;
+Carlisle KY 40311 Nicholas Co.</description>
+          <LookAt>
+            <longitude>-84.021419</longitude>
+            <latitude> 38.197525</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.021419, 38.197525,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Stephanie Dahne</name>
+          <description>&lt;a href="mailto:slewbee@comcast.net"&gt; slewbee@comcast.net &lt;/a&gt;&lt;br&gt;
+1654 Suzanne Dr.&lt;br&gt;
+West Chester PA 19380</description>
+          <LookAt>
+            <longitude>-75.723548</longitude>
+            <latitude> 39.960729</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-75.723548, 39.960729,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Joia Wolfe</name>
+          <description>1892 Poplar Ridge Rd&lt;br&gt;
+Melbourne KY 41059 Campbell Co.&lt;br&gt;
+(859) 635-3163</description>
+          <LookAt>
+            <longitude>-84.365102</longitude>
+            <latitude> 38.986746</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.365102, 38.986746,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Joan Gray</name>
+          <description>&lt;a href="mailto:jwpequines@aol.com"&gt; jwpequines@aol.com &lt;/a&gt;&lt;br&gt;
+25924 Sawden Ridge Rd&lt;br&gt;
+Gulford IN 47022</description>
+          <LookAt>
+            <longitude>-84.918161</longitude>
+            <latitude> 39.247274</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.918161, 39.247274,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Monica Egger</name>
+          <description>&lt;a href="mailto:monica.egger@yahoo.com"&gt; monica.egger@yahoo.com &lt;/a&gt;&lt;br&gt;
+1755 Bracht Piner Rd&lt;br&gt;
+Morning View KY 41063 Kenton Co.&lt;br&gt;
+(859) 356-5597</description>
+          <LookAt>
+            <longitude>-84.540637</longitude>
+            <latitude> 38.830671</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.540637, 38.830671,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Elizabeth Collins</name>
+          <description>&lt;a href="mailto:recollins@midway.edu"&gt; recollins@midway.edu &lt;/a&gt;&lt;br&gt;
+350 E. Short St.&lt;br&gt;
+Lexington KY 40507 Fayette Co.&lt;br&gt;
+(859) 421-2195</description>
+          <LookAt>
+            <longitude>-84.490604</longitude>
+            <latitude> 38.042364</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.490604, 38.042364,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Cynthia Kulfan</name>
+          <description>&lt;a href="mailto:vesta910@yahoo.com"&gt; vesta910@yahoo.com &lt;/a&gt;&lt;br&gt;
+11605 Nansemond Dr.&lt;br&gt;
+Louisville KY 40245 Jefferson Co.&lt;br&gt;
+(502) 794-0769</description>
+          <LookAt>
+            <longitude>-85.530575</longitude>
+            <latitude> 38.305712</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.530575, 38.305712,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Deborah Klinkner</name>
+          <description>&lt;a href="mailto:eskielover@burginwireless.com"&gt; eskielover@burginwireless.com &lt;/a&gt;&lt;br&gt;
+987 Curry Pike&lt;br&gt;
+Harrodsburg KY 40330 Mercer Co.&lt;br&gt;
+(661) 917-8198</description>
+          <LookAt>
+            <longitude>-84.801830</longitude>
+            <latitude> 37.821168</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.801830, 37.821168,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Sharon Vanderziel</name>
+          <description>&lt;a href="mailto:windschant@bellsouth.net"&gt; windschant@bellsouth.net &lt;/a&gt;&lt;br&gt;
+1579 Clintonville Rd.&lt;br&gt;
+Paris KY 40361 Bourbon Co.&lt;br&gt;
+(859) 987-5633</description>
+          <LookAt>
+            <longitude>-84.256569</longitude>
+            <latitude> 38.143602</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#PurplePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.256569, 38.143602,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>CollegeAndYouth</name>
+        <open>1</open>
+        <description>RedPushpin</description>
+        <Placemark>
+          <name>Cathrin Walker</name>
+          <description>&lt;a href="mailto:lufteplong@gmail.com"&gt; lufteplong@gmail.com &lt;/a&gt;&lt;br&gt;
+339 Iron Works Road&lt;br&gt;
+Paris KY 40361 Bourbon Co.&lt;br&gt;
+(859) 361-3683</description>
+          <LookAt>
+            <longitude>-84.283115</longitude>
+            <latitude> 38.114563</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#RedPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.283115, 38.114563,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Leah Sheldon</name>
+          <description>&lt;a href="mailto:leah.sheldon@asbury.edu"&gt; leah.sheldon@asbury.edu &lt;/a&gt;&lt;br&gt;
+1 Macklem Drive&lt;br&gt;
+Wilmore KY 40390 Jessamine Co.</description>
+          <LookAt>
+            <longitude>-84.661820</longitude>
+            <latitude> 37.863042</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#RedPushpin</styleUrl>
+          <Point>
+            <coordinates>-84.661820, 37.863042,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Natalie Heitz</name>
+          <description>&lt;a href="mailto:nmheit2@uky.edu"&gt; nmheit2@uky.edu &lt;/a&gt;&lt;br&gt;
+3404 Hanover Court&lt;br&gt;
+Louisville KY 40207 Jefferson Co.&lt;br&gt;
+(502) 693-8084</description>
+          <LookAt>
+            <longitude>-85.657177</longitude>
+            <latitude> 38.237121</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#RedPushpin</styleUrl>
+          <Point>
+            <coordinates>-85.657177, 38.237121,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

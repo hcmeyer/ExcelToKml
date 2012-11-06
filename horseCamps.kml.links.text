@@ -1,0 +1,9 @@
+
+Short Url:
+
+http://maps.google.com/maps?q=https:%2F%2Fsites.google.com%2Fsite%2Fhcmeyer%2Fhome%2Fearth%2FhorseCamps.kml&hl=en&sll=38.231683,-85.232749&sspn=0.007029,0.013797&t=m&z=7
+
+Html for Embedding:
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=https:%2F%2Fsites.google.com%2Fsite%2Fhcmeyer%2Fhome%2Fearth%2FhorseCamps.kml&amp;aq=&amp;sll=38.231683,-85.232749&amp;sspn=0.007029,0.013797&amp;ie=UTF8&amp;t=m&amp;ll=37.865527,-85.562705&amp;spn=2.449548,4.87319&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=https:%2F%2Fsites.google.com%2Fsite%2Fhcmeyer%2Fhome%2Fearth%2FhorseCamps.kml&amp;aq=&amp;sll=38.231683,-85.232749&amp;sspn=0.007029,0.013797&amp;ie=UTF8&amp;t=m&amp;ll=37.865527,-85.562705&amp;spn=2.449548,4.87319" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+

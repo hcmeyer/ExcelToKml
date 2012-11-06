@@ -1,0 +1,336 @@
+
+KML Elements Supported in Google Maps
+
+Notes
+
+The left side panel in Google Maps differs in some aspects from that of Google Earth: styling is not supported, the order of features is not preserved, and the tree structure is not fully preserved.
+
+Expiration and time-based refresh are generally supported, although Google Maps does not refetch content from the Internet more often than (in the order of) fractions of a minute to a few minutes. Google Maps ignores expiration settings in the HTTP headers but does use the expiration settings specified in KML. In the absence of expiration settings, or within the time validity interval, Google Maps may cache data fetched from the Internet for unspecified durations. A refetch of the data from the Internet can be forced by renaming the document and fetching it under a different URL, or by making sure that the document contains appropriate expiration settings.
+
+There are restrictions in the Google Maps support of <NetworkLinkControl> and <NetworkLink>. 
+
+Relative URLs are in some cases handled differently from Google Earth.
+
+Google Maps uses a different projection for the drawing of polygons and lines than Google Earth. Lines are drawn as straight lines in the Mercator projection on Google Maps. Therefore, long lines may touch different points on the surface of the Earth than when the same lines are displayed in Google Earth. 
+
+There are limitations on the sizes of files that can be loaded by Google Maps, the number of features, and the number of vertices in polygons and polylines. These limits are subject to change.
+
+There is rudimentary support for view specification but not complete support of <LookAt> and <Camera>.
+
+Google Maps requires a correct specification of the encoding of the KML document. For example, a document specifying encoding="UTF-8" may not contain content encoded in ISO-8859-1.
+
+Entity replacements such as $[name] are supported only in the context of <BalloonStyle>.
+Details about KML in Google Maps
+
+The following table provides detailed information on which KML elements are supported in Google Maps.
+
+
+KML Element         Supported in Google Maps?   Comment
+
+<address>	            no	
+
+<AddressDetails>	    no	
+
+<Alias>	                N/A	        <Model> is not supported
+
+<altitude>	            no	
+
+<altitudeMode>	        no	
+
+<atom:author>	        yes	
+
+<atom:link>	            yes
+
+<atom:name>	            yes	
+
+<BalloonStyle>	        partially   only <text> is supported
+
+<begin>	                N/A	        <TimeSpan> is not supported
+
+<bgColor>	            no	
+
+<bottomFov>	            N/A	        <PhotoOverlay> is not supported
+
+<Camera>	            no
+
+<Change>	            partially   only style changes are supported
+
+<color>	                partially   includes #AABBGGRR and #BBGGRR; not supported in
+                                    <IconStyle>, <ScreenOverlay>, and <GroundOverlay>
+<colorMode>	            no 
+
+<cookie>	            no 
+
+<coordinates>	        yes
+
+<Create>	            no	
+
+<Data>	                yes	
+
+<Delete>	            no	
+
+<description>	        yes	        HTML content is allowed but is sanitized to protect from 
+                                    cross-browser attacks; entity replacements of the form 
+                                    $[dataName] are unsupported.
+
+<displayMode>	        no	
+
+<displayName>	        no	
+
+<Document>	            partially   implicitly, children are supported; no effect as child of 
+                                    other Features
+<drawOrder>	            no	
+
+<east>	                yes
+
+<end>	                N/A	        <TimeSpan> is not supported
+
+<expires>	            yes	        see Summary section for details
+
+<ExtendedData>	        partially   untyped <Data> only, no <SimpleData> or <Schema>, and entity
+                                    replacements of the form $[dataName] are unsupported.
+
+<extrude>	            no	
+
+<fill>	                yes
+
+<flyToView>	            no	
+
+<Folder>	            yes
+
+<geomColor>	            no	        deprecated
+
+<GeometryCollection>    no	        deprecated
+
+<geomScale>	            no	        deprecated
+
+<gridOrigin>	        N/A	        <PhotoOverlay> is not supported
+
+<GroundOverlay>	        yes	        cannot be rotated
+
+<h>	                    yes	        deprecated
+
+<heading>	            yes
+
+hint	                yes	        target=... supported
+
+<hotSpot>	            yes	
+
+<href>	                yes	
+
+<httpQuery>	            no	
+
+<Icon>	                yes	        cannot be rotated
+
+<IconStyle>	            yes	
+
+<ImagePyramid>	        N/A	        <PhotoOverlay> is not supported
+
+<innerBoundaryIs>	    yes	        implicitly from <LinearRing> order
+
+<ItemIcon>	            N/A	        <ListStyle> is not supported
+
+<key>	                N/A	        <StyleMap> is not supported
+
+<kml>	                yes	
+
+<labelColor>	        no	        deprecated
+
+<LabelStyle>	        no
+
+<latitude>	            yes
+
+<LatLonAltBox>	        yes	
+
+<LatLonBox>	            yes	
+
+<leftFov>	            N/A	        <PhotoOverlay> is not supported
+
+<LinearRing>	        yes	
+
+<LineString>	        yes	
+
+<LineStyle>	            yes	
+
+<Link>	                yes	
+
+<linkDescription>	    no	
+
+<linkName>	            no	
+
+<linkSnippet>	        no	
+
+<listItemType>	        N/A	        <ListStyle> is not supported
+
+<ListStyle>	            no	
+
+<Location>	            N/A	        <Model> is not supported
+
+<Lod>	                yes	
+
+<longitude>	            yes	
+
+<LookAt>	            no	
+
+<maxAltitude>	        yes	
+
+<maxFadeExtent>	        yes	
+
+<maxHeight>	            N/A	        <PhotoOverlay> is not supported
+
+<maxLodPixels>	        yes	
+
+<maxSessionLength>	    no	
+
+<maxWidth>	            N/A	        <PhotoOverlay> is not supported
+
+<message>	            no	
+
+<Metadata>	            no          deprecated
+
+<minAltitude>	        yes	
+
+<minFadeExtent>	        yes	
+
+<minLodPixels>	        yes	
+
+<minRefreshPeriod>	    no	        <NetworkLink>
+
+<Model>	                no	
+
+<MultiGeometry>	        partially   rendered but displayed as separate features in left side panel
+
+<name>	                yes
+
+<near>	                N/A	        <PhotoOverlay> is not supported
+
+<NetworkLink>	        yes	 
+
+<NetworkLinkControl>    partially   <Update> and <expires> partially supported 
+                                    (see Notes section above)
+<north>	                yes	
+
+<open>	                yes	
+
+<Orientation>	        N/A	        <Model> is not supported
+
+<outerBoundaryIs>	    yes	        implicitly from <LinearRing> order
+
+<outline>	            yes	
+
+<overlayXY>	            no	
+
+<Pair>	                N/A	        <StyleMap> is not supported
+
+<phoneNumber>	        no	
+
+<PhotoOverlay>	        no	
+
+<Placemark>	            yes	
+
+<Point>	                yes	
+
+<Polygon>	            yes	
+
+<PolyStyle>	            yes	
+
+<range>	                yes	
+
+<refreshInterval>	    partially   <Link> only; not in <Icon>
+
+<refreshMode>	        yes	        HTTP headers not supported for "onExpire" mode 
+                                    (see Notes section above)
+<refreshVisibility>	    no	
+
+<Region>	            yes	
+
+<ResourceMap>	        N/A	        <Model> is not supported
+
+<rightFov>	            N/A	        <PhotoOverlay> is not supported
+
+<roll>	                N/A	        <Camera> and <Model> are not supported
+
+<rotation>	            no	
+
+<rotationXY>	        no	
+
+<Scale>	                N/A         <Model> is not supported
+
+<scale>         	    no	
+
+<Schema>	            no	
+
+<SchemaData>	        no	
+
+<ScreenOverlay>	        yes	        cannot be rotated
+
+<screenXY>	            no
+
+<shape>	                N/A	        <PhotoOverlay> is not supported
+
+<SimpleData>	        N/A	        <SchemaData> are not supported
+
+<SimpleField>	        N/A	        <Schema> are not supported
+
+<size>	                yes	
+
+<Snippet>	            yes
+ 
+<south>	                yes	
+
+<state>	                N/A	        <ListStyle> is not supported
+
+<Style>	                yes	
+
+<StyleMap>	            no	        rollover (highlight) effects are not supported
+
+<styleUrl>	            N/A	        <StyleMap> is not supported
+
+<targetHref>	        partially   supported in <Update>, not in <Alias>
+
+<tessellate>	        no
+
+<text>	                yes	        replacement of $[geDirections] is not supported
+
+<textColor>	            no	
+
+<tileSize>	            N/A	        <PhotoOverlay> is not supported
+
+<tilt>	                no	
+
+<TimeSpan>	            no	
+
+<TimeStamp>	            no	
+
+<topFov>	            N/A	        <PhotoOverlay> is not supported
+
+<Update>	            partially	only style changes, not <Create> or <Delete>
+
+<Url>	                yes	        deprecated
+
+<value>	                yes	
+
+<viewBoundScale>	    no	
+
+<viewFormat>	        no
+
+<viewRefreshMode>	    partially	"onStop" is supported
+
+<viewRefreshTime>	    yes
+
+<ViewVolume>	        N/A	        <PhotoOverlay> is not supported
+
+<visibility>	        partially   yes on <Folder> - child placemarks inherit their visibility
+
+<w>	                    yes	        deprecated
+
+<west>	                yes	
+
+<when>	                N/A	        <TimeStamp> is not supported
+
+<width>	                yes	
+
+<x>	                    yes	        deprecated
+
+<y>	                    yes	        deprecated
+

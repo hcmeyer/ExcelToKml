@@ -1,0 +1,76 @@
+<html><head><title>ExcelToKml - Other</title></head>
+<body>
+<p>
+<b> Other </b>
+<ul>
+<li id="WindowLayout">
+<p>
+<b>Window Layout - </b>The interior of the program window is divided into three regions. 
+<ul>
+<li>
+<b>Top Left</b> is the Form, showing the row data from the Excel file.
+</li>
+<li>
+<b>Top Right</b> is the Tree, showing the Kml data in a Tree Widget.
+</li>
+<li>
+<b>Bottom</b> is a list of all status, warning and error messages issued by the program during this run.
+</li>
+</ul>
+<p>
+The regions are separated by <b>splitter</b> bars, shaped like an upside down letter <b>"T"</b>. The <b>splitter</b> bars can be moved within the window by dragging with the mouse, changing the proportions of the window for each region.
+</p>
+</li>
+<li id="WindowFrame">
+<b>Window Frame and Controls</b> The program window is surrounded by an ordinary top level frame, and is resizable and closeable. 
+<p>
+The top right corner of the frame has the usual -, rectangle, and X controls, that minimize, maximize and un-maximize, and close the program window. Closing the program window with the X will act the same as the <a href="excelMenu.html#ExcelQuit"> Quit</a>, asking to save changed data.
+</p>
+<p>
+The program frame can be resized by dragging the frame edges and corners.
+</p>
+<p>
+The bottom of the frame is used as a status message display. Copies of all messages are saved in the bottom region of the program, in a scrollable list. 
+</p>
+</li>
+<li id="SaveAndRestore">
+<p>
+<b>Save and Restore - </b> The program saves several of its characteristics when closed, and restores them when next started. These are Window Frame Size and Position, the proportions of the splitters, and the last Excel File opened. The most <a href="excelMenu.html#RecentlyOpen">recently open</a> Excel File will be re-opened, if possible, when the program is started.
+</p>
+</li>
+<li id="Printing">
+<b>Printing - </b> The ExcelToKml program does not have any printing functions. 
+<p>
+Decoding the printing options stored in the Excel file is very complex, error prone, and unnecessary. The Excel or other Spreadsheet program should be used to print this data.
+</p>
+<p>
+The Kml file is much simpler, it is an Xml text file. It can be viewed and printed with any text editor, such as Notepad. The Tree view in the Top Right of the program window is an abstract version of this data, showing structure and content.
+</p>
+</li>
+<li id="AddingData">
+<b>Adding rows or sheets - </b> The ExcelToKml does not allow adding rows or sheets to the Excel data. 
+<p>
+Similar to printing, decoding the options needed to store new rows or sheets in the Excel file is very complex, error prone, and unnecessary. The Excel or other Spreadsheet program should be used to add rows or sheets.
+</p>
+</li>
+<li id="Editing">
+<b>Editing, General - </b> The Excel Data <a href="rowEdit.html#EditRowData">row editing</a> and <a href="excelMenu.html#ExcelSave"> File Saving</a> is designed to allow <a href="rowEdit.html#Lookup">lookup</a> of Latitude and Longitude data from Street, Town, State, Zip address data. It will also allow minor editing of other columns. Serious editing should be done with Excel or another Spreadsheet program before using this program.
+<p>
+The Kml data is not editable because it is derived from the Excel data. Any changes in the Kml data would have to be reflected back to the Excel data, to allow it to be saved. Much too difficult. Any editing should be done on the Excel data, either with the Row editing of the ExcelToKml program, or an Excel or other Spreedsheet program.
+</p>
+</li>
+<li id="MailTo">
+<p>
+<b>mailto -</b> A mailto is a type of URL. It contains an eMail address, and looks like <br>
+<b> "&lt a href="mailto:user@domain" &gt User Name </a>" </b> in the raw html. When it appears in a browser, you will see <u>User Name</u>, and when you click it, the browser will open your mail client program (Outlook, ThunderBird, or ...), and open a new message with the eMail address for composition and sending. 
+</p>
+<p>
+This mailto will become part of the popup for the placemark. Clicking it in the popup will open the mail client, etc. These can be in the "Website" column in the Excel data. The original application for the ExcelToKml program had links to websites in this column. For a mailing list, a mailto with member's eMail addresses would allow easy eMail links to members to be shown.
+</p>
+</li>
+</ul>
+<ul>
+<li><a href="index.html">Index</a> ExcelToKml - index
+</li>
+</ul>
+</body></html>

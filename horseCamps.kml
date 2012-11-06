@@ -1,0 +1,846 @@
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>horseCamps Kml File</name>
+    <open>1</open>
+    <StyleMap id="BluePushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#BluePushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#BluePushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="BluePushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="BluePushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>horseCamps</name>
+      <open>1</open>
+      <description><![CDATA[bork]]></description>
+      <Folder>
+        <name>PublicCamps</name>
+        <open>1</open>
+        <description><![CDATA[BluePushpin]]></description>
+        <Placemark>
+          <name>Barren Fork Horse Camp</name>
+          <description><![CDATA[Extensive trails in Daniel Boone National Forest. 41 primitive camping sites. Pond water for horses. City water from faucets. Two sets of toilets, no showers.<br>
+<a href="http://www.fs.fed.us/r8/boone/districts/stearns/brntabcmp.pdf"> link to map on Forest Service Website </a><br>
+3320 Hwy 27N<br>
+Whitley City KY <br>
+606.379.5323]]></description>
+          <LookAt>
+            <longitude>-84.465349</longitude>
+            <latitude> 36.772405</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.465349, 36.772405,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Bear Creek Horse Camp</name>
+          <description><![CDATA[Access to extensive trail system on public and private lands. 24 improved sites with water and electric hookup. Modern bathhouse. Potable water. Tie stalls. Campfire circle. Located in southern Kentucky.<br>
+<a href="http://www.nps.gov/biso/planyourvisit/upload/3.pdf"> link to map on National Park Service website </a><br>
+PO Box 4411<br>
+Oneida TN 37841<br>
+423.569.3321]]></description>
+          <LookAt>
+            <longitude>-84.523411</longitude>
+            <latitude> 36.640753</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.523411, 36.640753,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Bell Farm Horse Camp</name>
+          <description><![CDATA[Extensive trails in Daniel Boone National Forest. Primitive camping. Tie stalls. Creek water for horses.<br>
+<a href="http://www.fs.fed.us/r8/boone/districts/stearns/bellcamp.pdf"> link to map on Forest Service Website </a><br>
+3320 Hwy 27N<br>
+Whitley City KY <br>
+606.376.5323]]></description>
+          <LookAt>
+            <longitude>-84.667087</longitude>
+            <latitude> 36.668742</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.667087, 36.668742,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Burt T. Combs Park</name>
+          <description><![CDATA[The Elk Mountain Saddle Club rides the beautiful mountains and trails of Clay County, Manchester, KY. Clay County is home of one of the best kept secret in the mountains, The Bert T. Combs RV Park and Campground and Equestrian Trails with electric and water hookups. The Bert T Combs Park has something for everyone<br>
+<a href="http://www.welovemanchester.com/City_Parks.html"> link to Manchester City website </a>
+Or 
+<a href="http://elkmountainsaddleclubofky.com/"> link to Elk Mountain Saddle Club website </a><br>
+Beech Creek Road<br>
+Manchestrer KY 40962<br>
+606.598.1554]]></description>
+          <LookAt>
+            <longitude>-83.712853</longitude>
+            <latitude> 37.170660</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.712853, 37.170660,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Carter Caves State Resort Park</name>
+          <description><![CDATA[Carter Caves offers 8 pull-through campsites specifically designed for horse owners. These sites feature electric, water and sewer hook-ups. Each site has its own corresponding hitching posts for up to four horses, picnic table, lantern hanger & fire ring/grill combo. Horse campers have access to all campground amenities, which include bathhouses, laundry area and playgrounds. Riders can enjoy 30 miles of multi use trails, accessible from the horse camp. Open all year.<br>
+<a href="http://parks.ky.gov/parks/resortparks/carter-caves/default.aspx"> link to Kentuckty State Parks website </a><br>
+344 Caveland Dr.<br>
+Olive Hill KY 41164<br>
+606.286.4411 or 800.325.0059]]></description>
+          <LookAt>
+            <longitude>-83.126110</longitude>
+            <latitude> 38.374720</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.126110, 38.374720,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Dale Hollow Lake State Park</name>
+          <description><![CDATA[20 sites and overflow area. Electric and water hookups. Modern bathhouse. Pool nearby. Picnic tables and grills. Lake, marina, and boat ramp one mile away. Hitching posts and picket lines. Portable corrals okay. 20 miles of official trails with access to additional trails.<br>
+<a href="http://parks.ky.gov/parks/resortparks/dale-hollow/default.aspx"> link to Kentucky State Parks website </a><br>
+5970 State Park Road<br>
+Burksville KY 42717<br>
+270.433.7431 or 800.325.2282]]></description>
+          <LookAt>
+            <longitude>-85.283412</longitude>
+            <latitude> 36.652965</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.283412, 36.652965,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Little Lick Horse Camp</name>
+          <description><![CDATA[Extensive trails in Daniel Boone National Forest. Eight primitive camping sites. No horse water. Pit toilets. Hitching rail.<br>
+<a href="http://www.kentuckytourism.com/things_to_do/featured_attractions/little-lick-campground-horse-camp/2956/"> link to Kentucky Tourism website </a><br>
+Forest Service Road 122S off Hw 192<br>
+Somerset KY 42501<br>
+606.679.2018]]></description>
+          <LookAt>
+            <longitude>-84.399881</longitude>
+            <latitude> 36.964168</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.399881, 36.964168,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Logan-Hubble Park</name>
+          <description><![CDATA[Ten miles of trails. Six overnight primitive sites. Bathhouse and toilets under construction.<br>
+<a href="http://www.lincolnky.com/pdf/loganhubble.pdf"> link to map on Lincoln County website </a><br>
+US 27 South Of Lancaster<br>
+Lancaster KY 40444<br>
+859.792.3531]]></description>
+          <LookAt>
+            <longitude>-84.616164</longitude>
+            <latitude> 37.587466</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.616164, 37.587466,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Maple Springs Group Campground</name>
+          <description><![CDATA[60 miles of trails open to horses. Four large primitive sites, each site accommodates up to 24 people and 8 horses. Potable water. Picket lines. Group area. Reservations required.<br>
+<a href="http://www.nps.gov/maca/planyourvisit/maplespringscg.htm"> link to National Park service website </a><br>
+PO Box 7<br>
+Mammoth Cave KY 42259<br>
+270.758.2424 or 877.444.6777]]></description>
+          <LookAt>
+            <longitude>-86.132254</longitude>
+            <latitude> 37.204039</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-86.132254, 37.204039,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Pennytile Forest State Resort Park</name>
+          <description><![CDATA[Pennyrile Forest offers 8 pull-through campsites specifically designed for horse owners. These sites feature electric, water and sewer hook-ups. Each site has its own corresponding hitching posts for up to four horses, picnic table, lantern hanger & fire ring/grill combo. Horse campers have access to all campground amenities, which include bathhouses, laundry area and playgrounds. A new 1.25 mile horse trail near the campground connects horseback riders to the 40+ miles of horse trails on the adjacent Pennyrile State Forest.<br>
+<a href="http://parks.ky.gov/parks/resortparks/pennyrile-forest/default.aspx"> link to Kentucky State Parks website </a><br>
+20781 Pennyrile Lodge Rd.<br>
+Dawson Springs KY 42408<br>
+270.797.3421 or 800.325.1711]]></description>
+          <LookAt>
+            <longitude>-87.656104</longitude>
+            <latitude> 37.072203</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-87.656104, 37.072203,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Sand Hill Conservation Camp</name>
+          <description><![CDATA[27 acres of county property. Seven acre field for horses and trailers. Water and hot showers for campers. RV park has electric and water hook-ups. Two shelters.<br>
+<a href="http://www.mccrearycounty.com/Sandhill.html"> link to McCreary County website </a><br>
+County Road 1066<br>
+Whitley KY 42653<br>
+606.376.9333]]></description>
+          <LookAt>
+            <longitude>-84.413805</longitude>
+            <latitude> 36.765067</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.413805, 36.765067,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Shaker Village of Pleasant Hills Trails</name>
+          <description><![CDATA[Trails are open from dawn to dusk. Horse trailers park in the designated area near the stables. No dogs allowed on trails. Toilets at trailhead. Overnight visitors may choose to use our newly constructed boarding facilities. The tack room, paddocks and fully equipped stalls can accommodate your horses while you dine in the Trustees' Office dining room, tour Shaker Village, or relax in one of our unique lodging rooms. We offer a special Bed & Bridle Package.<br>
+<a href="http://www.shakervillageky.org/the_stable/ "> link to Shaker Village website</a><br>
+3501 Lexington Road<br>
+Harrodsburg KY 40330<br>
+800-734-5611 or 859-734-5411]]></description>
+          <LookAt>
+            <longitude>-84.740022</longitude>
+            <latitude> 37.818951</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.740022, 37.818951,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Shelby Trails Park</name>
+          <description><![CDATA[Northwestern Shelby County, near Simpsonville. 20 miles mapped tails. Primitive and Horse Trailer Camping, facilities under construction. Guided trail rides and horse rental.<br>
+<a href="http://shelbycountyparks.com/Shelby-Trails-Park.html"> link to Shelby Parks website </a><br>
+5063 Aiken Road<br>
+Todd's Point KY 40067<br>
+502.633.5059]]></description>
+          <LookAt>
+            <longitude>-85.356896</longitude>
+            <latitude> 38.285614</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.356896, 38.285614,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Tarr Ridge</name>
+          <description><![CDATA[20 miles of trails. Six to 10 primitive sites. No water. Excellent day use trail head. Overnight camping permitted.<br>
+<a href="http://www.horseandmuletrails.com/Ky.htm"> link to Horse and Mule Trails list </a><br>
+<br>
+Stanton KY <br>
+]]></description>
+          <LookAt>
+            <longitude>-83.599914</longitude>
+            <latitude> 37.908076</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.599914, 37.908076,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Taylorsville Lake State Park</name>
+          <description><![CDATA[Taylorsville Lake State Park is a favorite of both wranglers and anglers. The park sits on 3,050-acre Taylorsville Lake, where anglers can vie for bass, bluegill and crappie. The 1,200-acre park encompasses some of the most beautiful riding country around, not far away from Kentucky's biggest city. <br>
+<a href="http://kentuckystateparks.reserveamerica.com/ky/Taylorsville_Lake_State_Park/Campground/r/campgroundDetails.do?contractCode=KY&amp;parkId=91825"> link to Kentucky State Parks website </a><br>
+PO Box 205<br>
+Taylorsville KY 40071<br>
+502.477.8713]]></description>
+          <LookAt>
+            <longitude>-85.256316</longitude>
+            <latitude> 38.029787</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.256316, 38.029787,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>White Sulfur Horse Camp</name>
+          <description><![CDATA[30 back-in parking slots for rigs up to 50&#8217; long, 7 parking slots for vehicles without trailers, wooded primitive sites, picket lines, and horse water from pond. Chemical toilets.<br>
+<a href="http://www.kentuckytourism.com/things_to_do/horses/white-sulphur-horse-camp/3039/"> link to Kentucky Tourism website </a><br>
+Forest Road 105<br>
+Salt Lick KY 40371<br>
+606.784.6428]]></description>
+          <LookAt>
+            <longitude>-83.575096</longitude>
+            <latitude> 38.085566</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.575096, 38.085566,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Wrangler&#8217;s Campground Land Between the Lakes</name>
+          <description><![CDATA[Very large primitive camp area. Modern bathhouse with ice, vending machines, and washer/dryer. Potable water and horse troughs. Some stalls available in barns. Electric toilets at 99 sites. 35 miles of marked horse trails. Large system of old roads and other trails available.<br>
+<a href="http://www.lbl.org/CAMPWranglers.html"> link to Land Between the Lakes website </a><br>
+5100 Laura Furnace Road<br>
+Golden Pond KY 42211<br>
+270.924.2201 or 800.525.7077]]></description>
+          <LookAt>
+            <longitude>-87.999300</longitude>
+            <latitude> 36.736631</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-87.999300, 36.736631,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>PrivateCamps</name>
+        <open>1</open>
+        <description><![CDATA[BluePushpin]]></description>
+        <Placemark>
+          <name>Big Red Stables</name>
+          <description><![CDATA[1500 scenic acres to ride on by yourself, or per hour rate for rentals. Call for reservations.<br>
+<a href="http://www.bigredstablesky.com/"> link to Big Red Stables website </a><br>
+1605 Jackson Pike<br>
+Harrodsburg KY 40330<br>
+859.734.3118]]></description>
+          <LookAt>
+            <longitude>-84.916878</longitude>
+            <latitude> 37.827743</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.916878, 37.827743,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Blair Creek Horse Camp</name>
+          <description><![CDATA[The Blair Creek Resort is owned and managed by Mary Strunk and
+son Derrick Strunk. We are located in South Eastern Kentucky in the
+Big South Fork National River and Recreational area.<br>
+<a href="http://www.blaircreekresort.com"> link to Blair Creek Resort website </a><br>
+3224 Mine 18 Road <br>
+Strunk KY 42649<br>
+877.209.1012]]></description>
+          <LookAt>
+            <longitude>-84.496721</longitude>
+            <latitude> 36.660358</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.496721, 36.660358,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Cave Country Inn</name>
+          <description><![CDATA[The area offers many attractions for you and your family to enjoy, along with miles of horse trails in the Mammoth Cave National Park. Attractions include Cave Spring Caverns, Nolin Lake and the National Corvette Museum. <br>
+<a href="http://www.cavecountryinnhorses.com/"> link to Cave County Inn website </a><br>
+1180 Raider Hollow Rd.
+<br>
+Munfordville KY 42765<br>
+270.524.1379]]></description>
+          <LookAt>
+            <longitude>-85.923779</longitude>
+            <latitude> 37.310972</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.923779, 37.310972,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>D bar K Horse Camp</name>
+          <description><![CDATA[Our campground features all pull thru sites with easy access to restrooms and stalls. We are located 200 yds from the Lincoln Trailhead which opens up to 70 miles of well marked trails.<br>
+<a href="http://www.dbarkhorsecamp.com/"> link to D bar K website </a><br>
+510 Ollie Road<br>
+Mammoth Cave KY 42259<br>
+270.286.-217]]></description>
+          <LookAt>
+            <longitude>-86.162479</longitude>
+            <latitude> 37.256823</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-86.162479, 37.256823,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Deep End Farm Bed and Barn</name>
+          <description><![CDATA[A one-of-a kind facility in the state, this lodging property offers a 1BR/1BA apartment w/full kitchen, washer & dryer. Bring along your horses and saddle-up to ride over 2000 acres of neighboring horseback trails. Farm offers 2 stalls/2 paddocks for boarding. On-site kennels are available for your canine companions.<br>
+<a href="http://www.kentuckyfarmsarefun.com/webpage.aspx?siteid=2580"> link to Kentucky Farms are Fun website </a><br>
+591 Hopewell Rd<br>
+Harrodsburg KY 40330<br>
+859.734.7003   or 253.927.9879]]></description>
+          <LookAt>
+            <longitude>-84.912720</longitude>
+            <latitude> 37.826746</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.912720, 37.826746,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Double &#8220;J&#8221; Stables and Horseman&#8217;s Camp</name>
+          <description><![CDATA[70 miles of trails at Mammoth Cave National Park. Electric and rustic sites. Bathhouse. Dump station. Stalls and turnout pens.<br>
+<a href="http://www.doublejstables.com/"> link to Double J website </a><br>
+543 Lincoln School Road<br>
+Mammoth Cave KY 42259<br>
+270.286.8167]]></description>
+          <LookAt>
+            <longitude>-86.146837</longitude>
+            <latitude> 37.252514</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-86.146837, 37.252514,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Eagle Creek Horse Motel</name>
+          <description><![CDATA[We offer both comfort and convenience for the equine traveller. Park alongside Eagle Creek and hookup to our electric and water outlets. Unload your horse and use one of our stalls in the barn or our round pen.<br>
+<a href="http://www.eaglecreekhorsemotel.com"> link to Eagle Creek website </a><br>
+7101 Cincinatti Road<br>
+Sadieville KY 40370<br>
+502.542.8085]]></description>
+          <LookAt>
+            <longitude>-84.568396</longitude>
+            <latitude> 38.393030</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.568396, 38.393030,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>First Farm Inn</name>
+          <description><![CDATA[An elegant updated 1870s farmhouse on 20 acres. Homemade breakfast. Horseback riding. Outdoor hot tub. In-room massages. Midweek, multi-day discounts.<br>
+<a href="http://www.firstfarminn.com/"> link to First Farm Inn website </a><br>
+2510 Stevens Road<br>
+Petersburg KY 41080<br>
+800.277.9527 or 859.586.0199]]></description>
+          <LookAt>
+            <longitude>-84.807495</longitude>
+            <latitude> 39.090301</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.807495, 39.090301,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Green River Stables</name>
+          <description><![CDATA[We welcome all types of campers ... horse, rv, tent, etc.  We have a 26 stall barn for the horses.  Located outside of Campbellsville, KY. We have access to over 30 miles of wooded trails at Green River Lake State Park.<br>
+<a href="http://www.greenriverstables.com/"> link to Green River Stables website </a><br>
+592 Robin Rd<br>
+Campbellsville KY 42718<br>
+270-789-4525]]></description>
+          <LookAt>
+            <longitude>-85.344307</longitude>
+            <latitude> 37.284605</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.344307, 37.284605,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Horseshoe Acres Campground</name>
+          <description><![CDATA[74 campsites with electricity. Tether poles and tie out stalls. Shower house and restaurant. Miles of horse and wagon trails.<br>
+<br>
+12050 State Route 70W<br>
+Bremen KY 42325<br>
+270.338.9800]]></description>
+          <LookAt>
+            <longitude>-87.279915</longitude>
+            <latitude> 37.300192</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-87.279915, 37.300192,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Lake&#8217;s Creek Bed &amp; Breakfast</name>
+          <description><![CDATA[ Feel free to wander the premises: along the creek, or through the woods on well groomed trails. Fish in the nearby pond, or bring your horse for a quiet ride along woodland trails or down the open valley. Stables are available for overnight boarding of horses. Very near the property is the Sheltowee Trace, a National Recreational Trail, traversing the state.<br>
+<a href="http://www.bbonline.com/ky/lakescreek/"> link to Bed and Breakfast online </a><br>
+350 Lakes Creek Road<br>
+McKee KY 40447<br>
+606.287.7953]]></description>
+          <LookAt>
+            <longitude>-83.969148</longitude>
+            <latitude> 37.505279</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.969148, 37.505279,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Land of Arches Stables</name>
+          <description><![CDATA[Improved and primitive sites, Cabins,  Potable water, Finished barn for special activities, Rental horses. Extensive trail system on both private and public lands. Close to Natural Bridge State Park and Red River Gorge Wilderness Area.<br>
+<br>
+5150 KY 715<br>
+Zachariah KY 42396<br>
+606.668.7074]]></description>
+          <LookAt>
+            <longitude>-83.667942</longitude>
+            <latitude> 37.708372</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.667942, 37.708372,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Lazy Gait Horse Camp</name>
+          <description><![CDATA[Our campground area is in a park like setting.  We have electric or primitive sites and each have their own picnic table.  Barn stalls or tie-ups are also available.  Water is available for horses only and there is a dump station on the campground.<br>
+<a href="http://www.lazygaithorsecamp.com/"> link to Lazy Gait website </a><br>
+1624 Halfway Branch Road<br>
+Carter KY 41143<br>
+606.474.4316]]></description>
+          <LookAt>
+            <longitude>-83.169400</longitude>
+            <latitude> 38.464724</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.169400, 38.464724,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Red Hill Horse Camp</name>
+          <description><![CDATA[Discover the beautiful trails of the Daniel Boone National Forest on horseback. Hills and streams are plentiful. Outstanding scenery and wildlife are abundant. Organized rides with guides are held several times a year. Good family fun with many different campsites available..Come ride with us to Windy Gap,White Oak Branch, Horse Lick Creek and other interesting locations along the trail. <br>
+<a href="http://www.redhillhorsecamp.com/"> link to Red Hill website </a><br>
+PO Box 636<br>
+Mount Vernon KY 40456<br>
+606-758-4706 or 606-308-5900]]></description>
+          <LookAt>
+            <longitude>-84.203383</longitude>
+            <latitude> 37.333867</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.203383, 37.333867,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Rudy&#8217;s Ranch &amp; Campground</name>
+          <description><![CDATA[Plan your next family outing, reunion, benefit, birthday or church event with us. This is a great place to plan your next outside meeting or retreat and camp or plan to stay at the Journey's End Lodge on site. Horseback riding (bring your own horse), trail riding and horse shows. Camping: 110 sites with electric, 40 primitive sites. Hiking, fishing and golf next door at Carrington Greens.<br>
+<a href="http://www.rudysranchcamping.com/"> link to Rudy's Ranch website </a><br>
+998 Carrington Drive<br>
+Salt Lick KY 40391<br>
+606.768.6544]]></description>
+          <LookAt>
+            <longitude>-83.625641</longitude>
+            <latitude> 38.028492</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.625641, 38.028492,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Stampede Run Horse Camp</name>
+          <description><![CDATA[Electric and primitive sites available. Water and shower house.<br>
+<a href="http://www.stampederun.com/"> link to Stampede Run website </a><br>
+2150 Beulah Heights Rd.<br>
+Whitley City KY 42653<br>
+606.376.9666]]></description>
+          <LookAt>
+            <longitude>-84.442593</longitude>
+            <latitude> 36.803832</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.442593, 36.803832,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Sylvandell Farms</name>
+          <description><![CDATA[Our bed, barn and breakfast is a 400 sq. ft. apartment in the equipment shed where we lived while we built our home. We rent by the night, weekend or by the week.<br>
+<a href="http://www.sylvandellfarms.com/"> link to Sylvandell website </a><br>
+254 Sylvandell Road<br>
+Cynthiana KY 41031-8469<br>
+859.235.8950]]></description>
+          <LookAt>
+            <longitude>-84.164086</longitude>
+            <latitude> 38.441018</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.164086, 38.441018,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Trails End Horse Camp</name>
+          <description><![CDATA[Bring your horse and ride at your leisure along the railways and trails of our forefathers. There are 30 miles of trails nearby, with more available in Daniel Boone National Forest. A guide is available for hire upon request. The campground has mostly primitive sites, with horse stalls, city water and showers available. Also enjoy the picnic area or fish in the lake. <br>
+<a href="http://www.tourseky.com/node/1187"> link to Kentucky Tourism website </a><br>
+5162 Shumaker Ridge Road<br>
+Zoe KY 41397<br>
+606.464.9530]]></description>
+          <LookAt>
+            <longitude>-83.658431</longitude>
+            <latitude> 37.640945</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-83.658431, 37.640945,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Whispering Woods Riding Stable</name>
+          <description><![CDATA[Bring your own horse or ride ours at Whispering Woods a 250-acre farm conveniently located in Georgetown, Kentucky (gateway to the Horse Capital of the World).&#160;Our trails are heavily wooded and have hills, creek crossings, lots of beautiful hardwood trees, and abundant wildlife, deer, fox, raccoons, skunks and turkeys are often spotted on our trails Our trails are suitable for beginners but challenging enough to be interesting for more experienced riders. <br>
+<a href="http://www.whisperingwoodstrails.com"> link to Whispering Woods website </a><br>
+265 Wright Lane<br>
+Georgetown KY 40324<br>
+502.570.9663]]></description>
+          <LookAt>
+            <longitude>-84.582436</longitude>
+            <latitude> 38.330783</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.582436, 38.330783,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

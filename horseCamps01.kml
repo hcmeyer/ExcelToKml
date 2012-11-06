@@ -1,0 +1,72 @@
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>horseCamps Kml File</name>
+    <open>1</open>
+    <StyleMap id="BluePushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#BluePushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#BluePushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="BluePushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="BluePushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>horseCamps</name>
+      <open>1</open>
+      <description>bork</description>
+      <Folder>
+        <name>PublicCamps</name>
+        <open>1</open>
+        <description>BluePushpin</description>
+        <Placemark>
+          <name>Barren Fork Horse Camp</name>
+				<description><![CDATA[Extensive trails in Daniel Boone National Forest. 41 primitive camping sites. Pond water for horses. City water from faucets. Two sets of toilets, no showers.
+<br>
+<a href="http://www.fs.fed.us/r8/boone/districts/stearns/brntabcmp.pdf">
+link to map on Forest Service Website </a>
+<br>
+606.379.5323]]></description>
+				<LookAt>
+					<longitude>-84.46534867218082</longitude>
+					<latitude>36.77240541030127</latitude>
+					<altitude>0</altitude>
+					<heading>-0.1694558915923974</heading>
+					<tilt>0</tilt>
+					<range>1294.794168827195</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#green-pushpin</styleUrl>
+				<Point>
+					<coordinates>-84.465349,36.772405,0</coordinates>
+				</Point>
+        </Placemark>
+        </Folder>
+      <Folder>
+        <name>PrivateCamps</name>
+        <open>1</open>
+        <description>BluePushpin</description>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

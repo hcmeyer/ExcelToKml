@@ -1,0 +1,56 @@
+<html><head><title>ExcelToKml - Column Data</title></head>
+<body>
+<p>The <b>ExcelToKml</b> program requires the data in Excel files to have a particular format. The program uses data in the first ten columns of the Excel file. Any other columns in the file are not used. There may be more than one sheet in the Excel file, each sheet will be an internal folder in the Kml file, with the sheet name as a folder name.</p>
+<p>
+The program can only Open and Save .xls files, the older binary format used by Excel. It cannot Open or Save the newer .xslx or .xml Excel file formats.
+</p
+<p>
+The first ten columns should formatted as simple text, with the labels, in the first row of the sheet:
+</p>
+<ol>
+<li>
+Name
+</li>
+<li>
+Description
+</li>
+<li>
+Street
+</li>
+<li>
+Town
+</li>
+<li>
+State
+</li>
+<li>
+Zip
+</li>
+<li>
+Telephone
+</li>
+<li>
+Website
+</li>
+<li>
+Latitude
+</li>
+<li>
+Longitude
+</li>
+</ol>
+<p>
+These labels in the first row will be checked, to make sure the Excel File is correctly formatted, or the correct type of file is being read.
+If the labels are not correct, a warning message is issued.
+</p>
+<p>
+The only data really required in each row is Name, and either Latitude and Longitude, or enough of Street, Town, State, Zip data to produce a postal address that can be looked up to produce Latitude and Longitude. The other data, if present, will be combined in the Popup for the PlaceMark.
+</p>
+<p>
+Any row that does not have valid Latitude and Longitude will not produce a PlaceMark, and a warning message for that row. The <a href="kmlMenu.html#GeoCodeCheck">Kml GeoCode Check</a> in the program that will check rows for missing or invalid Latitude and Longitude.
+</p>
+<ul>
+<li><a href="index.html">Index</a> ExcelToKml - index
+</li>
+</ul>
+</body></html>

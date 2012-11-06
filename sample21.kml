@@ -1,0 +1,23 @@
+<?xml   version="1.0" encoding="UTF-8"?>
+<kml	xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:kml="http://www.opengis.net/kml/2.2" 
+        xmlns:atom="http://www.w3.org/2005/Atom">
+<Document  id="DOC1">
+	<name>sample KHC memberships Kml File</name>
+	<open>1</open>
+    	<description>remove xmlns gx</description>
+	<Folder id="FLD1">
+		<name>BusinessMembers</name>
+		<open>1</open>
+		<description>BluePushpin</description>
+		<Placemark id="PMA">
+			<name>Angela Spiers</name>
+			<open>1</open>
+			<description>a</description>
+			<Point id="PTA">
+				<coordinates>-84.41593,37.916132</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

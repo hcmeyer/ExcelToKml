@@ -1,0 +1,250 @@
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>sampleKHCmembershipsSort01wLongLat Kml File</name>
+    <open>1</open>
+    <StyleMap id="BluePushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#BluePushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#BluePushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="BluePushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="BluePushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="GreenPushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#GreenPushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#GreenPushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="GreenPushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="GreenPushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="LightBluePushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#LightBluePushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#LightBluePushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="LightBluePushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="LightBluePushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="PinkPushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#PinkPushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#PinkPushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="PinkPushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="PinkPushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="PurplePushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#PurplePushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#PurplePushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="PurplePushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="PurplePushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="RedPushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#RedPushpin0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#RedPushpin1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="RedPushpin0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="RedPushpin1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>sampleKHCmembershipsSort01wLongLat</name>
+      <open>1</open>
+      <description>third test</description>
+      <Folder>
+        <name>BusinessMembers</name>
+        <open>1</open>
+        <description>BluePushpin</description>
+        <Placemark>
+          <name>Angela Spiers</name>
+          <description>Business Membership: Small - Less Than 15 Employees&lt;br&gt;
+&lt;br&gt;
+2590 Jacks Creek Pike&lt;br&gt;
+Lexington KY 40515 Fayette&lt;br&gt;
+(859) 948-8644</description>
+          <LookAt>
+            <longitude>-84.415930</longitude>
+            <latitude> 37.916132</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.415930, 37.916132,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Arnold Kirkpatrick</name>
+          <description>Business Membership: Small - Less Than 15 Employees&lt;br&gt;
+http://Kirkfarms.com&lt;br&gt;
+P. O. Box 580&lt;br&gt;
+Lexington KY 40588 Fayette&lt;br&gt;
+(859) 231-8444</description>
+          <LookAt>
+            <longitude>-84.500000</longitude>
+            <latitude> 38.050000</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-84.500000, 38.050000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Stephen Magee</name>
+          <description>Business Membership: Small - Less Than 15 Employees&lt;br&gt;
+http://www.koettersmith.com&lt;br&gt;
+8991 Louis Smith Road&lt;br&gt;
+Borden IN 47106 Floyd&lt;br&gt;
+(812) 923-5111</description>
+          <LookAt>
+            <longitude>-85.937400</longitude>
+            <latitude> 38.404052</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250.0</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+          <styleUrl>#BluePushpin</styleUrl>
+          <Point>
+            <coordinates>-85.937400, 38.404052,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

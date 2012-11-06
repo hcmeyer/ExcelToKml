@@ -1,0 +1,56 @@
+<html><head><title>ExcelToKml - HowTo</title></head>
+<body>
+<p>
+<b> HowTo </b>use the ExcelToKml program
+<ol>
+<li>
+<p>
+<b>Prepare Excel Data - </b>Using a SpreadSheet program, prepare the Excel file with Name and Address (required) and other data (optional). The <a href="columnData.html">Column Data</a> help item describes the column and data format required. Re-arrange the columns in your data to fit this.
+</p>
+</li>
+<li>
+<p>
+<b>Read Excel Data - </b>Start the ExcelToKml program, read the data in, using the <a href="excelMenu.html#ExcelOpen"> Excel Open</a> Menu command or Toolbar button. The Excel row data appears in the Top Left of the program window, in a <a href="other.html#WindowLayout">Form</a>.
+</p>
+</li>
+<li>
+<p>
+<b>GeoCode the Data - </b>Use the <a href="kmlMenu.html#GeoCodeCheck">Kml GeoCode Check</a> Menu Command or Toolbar button to verify that all rows on all sheets have valid Latitude and Longitude data. If any rows do not have valid Latitude and Longitude data, the check will stop at the first such row, and put a message in the status.
+</p>
+<ol type="a">
+<li>
+<p>
+Check in the Form that the row has enough Street, Town, State, Zip data to have a valid postal address. Press the <a href="rowEdit.html#Lookup"> Lookup</a> pushbutton on the form to add Longitude and Latitiude data to the row. If the lookup succeeds, <a href="rowEdit.html#EditRowData"> Update</a> the row data, use the GeoCheck again, to continue checking the rows.
+</p>
+</li>
+<li>
+<p>
+If the <a href="rowEdit.html#Lookup">Lookup</a> fails, producing an error message, try to correct the Street, Town, State, Zip address data, and repeat the Lookup. If the row cannot be corrected, go to the <a href="rowEdit.html#RowControls">Next</a> row, and continue checking from there. A row with invalid or missing Latitude and Longitude will be skipped when generating Placemarks.
+</p>
+</li>
+</ol>
+</li>
+<li>
+<p>
+<b>Kml - </b>After as many as possible of the rows have been GeoCoded, use the <a href="kmlMenu.html#KmlConvert">Kml</a> Menu Command or Toolbar button to generate the Kml data. After the Kml data is generated, it can be reviewed in Top Right of the program window in the <a href="other.html#WindowLayout">Tree widget</a>.
+</p>
+</li>
+<li>
+<p>
+<b>Save Data to Files - </b> Use the <a href="kmlMenu.html#KmlSave">Kml Save</a> or <a href="kmlMenu.html#KmlSaveAs">Kml Save As</a> Menu Commands or Toolbar Buttons to save the Kml data.
+</p>
+<p>
+If the Excel Data was modified by GeoCoding or other editing, use the <a href="excelMenu.html#ExcelSave">Excel Save</a> or <a href="excelMenu.html#ExcelSaveAs">Excel Save As</a> Menu commands to save the Excel data</p>
+</p>
+</li>
+<li>
+<p>
+<b>Done - </b><a href="excelMenu.html#ExcelQuit">Quit</a> the program.
+</p>
+</li>
+</ol>
+<ul>
+<li><a href="index.html">Index</a> ExcelToKml - index
+</li>
+</ul>
+</body></html>

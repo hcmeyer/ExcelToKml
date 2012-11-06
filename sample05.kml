@@ -1,0 +1,61 @@
+<?xml   version="1.0" encoding="UTF-8"?>
+<kml    xmlns="http://www.opengis.net/kml/2.2" 
+        xmlns:gx="http://www.google.com/kml/ext/2.2" 
+        xmlns:kml="http://www.opengis.net/kml/2.2" 
+        xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>sample KHC memberships Kml File</name>
+	<open>1</open>
+    <description>Fifth Sample</description>
+	<Folder>
+		<name>BusinessMembers</name>
+		<open>1</open>
+		<description>BluePushpin</description>
+		<Placemark>
+			<name>Angela Spiers</name>
+			<description>a</description>
+			<LookAt>
+				<longitude>-84.41593</longitude>
+				<latitude>37.916132</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>250</range>
+			</LookAt>
+			<Point>
+				<coordinates>-84.41593,37.916132,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arnold Kirkpatrick</name>
+			<description>b</description>
+			<LookAt>
+				<longitude>-84.5</longitude>
+				<latitude>38.05</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>250</range>
+			</LookAt>
+			<Point>
+				<coordinates>-84.5,38.05,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stephen Magee</name>
+			<description>c</description>
+			<LookAt>
+				<longitude>-85.9374</longitude>
+				<latitude>38.404052</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>250</range>
+			</LookAt>
+			<Point>
+				<coordinates>-85.9374,38.404052,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
