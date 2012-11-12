@@ -78,6 +78,31 @@ class   MainWindow( QMainWindow):
     topRightWidth   = (appWidth-topLeftWidth)
     topHeight       = ((8*appHeight)/9)
     bottomHeight    = (appHeight-topHeight)
+#
+    bluePaddle	    = [ "BluePaddle",
+                        ":/Icon/blue-paddle-circle.png",
+                        'http://maps.google.com/mapfiles/kml/paddle/blu-paddle-circle.png']
+    greenPaddle	    = [ "GreenPaddle",
+                        ":/Icon/grn-paddle-circle.png",
+                        'http://maps.google.com/mapfiles/kml/paddle/grn-paddle-circle.png']
+    ltBluPaddle	    = [ "LightBluePaddle",
+                        ":/Icon/ltblu-paddle-circle.png",
+                        'http://maps.google.com/mapfiles/kml/paddle/ltblu-paddle-circle.png']
+    pinkPaddle	    = [ "PinkPaddle",
+                        ":/Icon/pink-paddle-circle.png",
+                        'http://maps.google.com/mapfiles/kml/paddle/pink-paddle-circle.png']
+    purplePaddle    = [ "PurplePaddle",
+                        ":/Icon/purple-paddle-circle.png",
+                        'http://maps.google.com/mapfiles/kml/paddle/purple-paddle-circle.png']
+    redPaddle	    = [ "RedPaddle",
+                        ":/Icon/red-paddle-circle.png",
+                        'http://maps.google.com/mapfiles/kml/paddle/red-paddle-circle.png']
+    whtPaddle	    = [ "WhitePaddle",
+                        ":/Icon/wht-paddle-circle.png",
+                        'http://maps.google.com/mapfiles/kml/paddle/wht-paddle-circle.png']
+    yellowPaddle	= [ "YellowPaddle",
+                        ":/Icon/ylw-paddle-circle.png",
+                        'http://maps.google.com/mapfiles/kml/paddle/ylw-paddle-circle.png']
 #       
     bluePushpin    = [ "BluePushpin",
                         ":/Icon/blue-pushpin.png",
@@ -104,8 +129,10 @@ class   MainWindow( QMainWindow):
                         ":/Icon/ylw-pushpin.png",
                         'http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png']
 
-    kmlFolderIcons  = [ bluePushpin, greenPushpin,  ltBluPushpin, pinkPushpin,
-                        purplePushpin, redPushpin,  whtPushpin,   yellowPushpin]
+    kmlFolderIcons  = [ bluePaddle,		greenPaddle,	ltBluPaddle,	pinkPaddle,
+                        purplePaddle,	redPaddle,		whtPaddle,		yellowPaddle,
+						bluePushpin,	greenPushpin,	ltBluPushpin,	pinkPushpin,
+                        purplePushpin,	redPushpin,		whtPushpin,		yellowPushpin]
 
     def __init__(   self, parent = None):
 
