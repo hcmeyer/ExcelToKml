@@ -30,10 +30,150 @@
         <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
       </IconStyle>
     </Style>
+    <StyleMap id="GreenPaddle">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#GreenPaddle0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#GreenPaddle1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="GreenPaddle0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="GreenPaddle1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="LightBluePaddle">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#LightBluePaddle0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#LightBluePaddle1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="LightBluePaddle0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="LightBluePaddle1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="PinkPaddle">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#PinkPaddle0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#PinkPaddle1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="PinkPaddle0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="PinkPaddle1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="PurplePaddle">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#PurplePaddle0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#PurplePaddle1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="PurplePaddle0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="PurplePaddle1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <StyleMap id="RedPaddle">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#RedPaddle0</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#RedPaddle1</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="RedPaddle0">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="RedPaddle1">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+        <hotSpot y="2" x="20" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
     <Folder>
       <name>sampleKHCmembershipsSort01wLongLat</name>
       <open>1</open>
-      <description>first test, ver 0.8</description>
+      <description>third test, new placemark, icons</description>
       <Folder>
         <name>BusinessMembers</name>
         <open>1</open>
@@ -113,7 +253,7 @@ Borden IN 47106 Floyd Co.&lt;br&gt;
       <Folder>
         <name>FamilyMembers</name>
         <open>1</open>
-        <description>BluePaddle</description>
+        <description>GreenPaddle</description>
         <Placemark>
           <name> </name>
           <description>Edward &amp; Lucinda Martin&lt;br&gt;
@@ -132,7 +272,7 @@ Alexandria KY 41001 Campbell Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#GreenPaddle</styleUrl>
           <Point>
             <coordinates>-84.350057, 38.963789,0.0</coordinates>
           </Point>
@@ -157,7 +297,7 @@ Scott Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#GreenPaddle</styleUrl>
           <Point>
             <coordinates>-84.686335, 38.271739,0.0</coordinates>
           </Point>
@@ -180,7 +320,7 @@ Frankfort KY 40601 Franklin Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#GreenPaddle</styleUrl>
           <Point>
             <coordinates>-85.000349, 38.192849,0.0</coordinates>
           </Point>
@@ -203,7 +343,7 @@ California KY 41007 Campbell Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#GreenPaddle</styleUrl>
           <Point>
             <coordinates>-84.302686, 38.946682,0.0</coordinates>
           </Point>
@@ -225,7 +365,7 @@ Melbourne KY 41059 Campbell Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#GreenPaddle</styleUrl>
           <Point>
             <coordinates>-84.340775, 39.022555,0.0</coordinates>
           </Point>
@@ -247,7 +387,7 @@ Covington KY 41016 Kenton Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#GreenPaddle</styleUrl>
           <Point>
             <coordinates>-84.529845, 39.089389,0.0</coordinates>
           </Point>
@@ -269,7 +409,7 @@ Cold Spring KY 41076 Campbell Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#GreenPaddle</styleUrl>
           <Point>
             <coordinates>-84.446399, 39.013757,0.0</coordinates>
           </Point>
@@ -291,7 +431,7 @@ Alexandria KY 41001 Campbell Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#GreenPaddle</styleUrl>
           <Point>
             <coordinates>-84.378603, 38.960256,0.0</coordinates>
           </Point>
@@ -300,7 +440,7 @@ Alexandria KY 41001 Campbell Co.</description>
       <Folder>
         <name>FarmMembers</name>
         <open>1</open>
-        <description>BluePaddle</description>
+        <description>LightBluePaddle</description>
         <Placemark>
           <name> </name>
           <description>Jan Weber&lt;br&gt;
@@ -321,7 +461,7 @@ Bourbon Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#LightBluePaddle</styleUrl>
           <Point>
             <coordinates>-84.283115, 38.114563,0.0</coordinates>
           </Point>
@@ -345,7 +485,7 @@ Lawrenceburg KY 40342 Anderson Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#LightBluePaddle</styleUrl>
           <Point>
             <coordinates>-84.970235, 37.987202,0.0</coordinates>
           </Point>
@@ -354,7 +494,7 @@ Lawrenceburg KY 40342 Anderson Co.&lt;br&gt;
       <Folder>
         <name>HorseRescueMembers</name>
         <open>1</open>
-        <description>BluePaddle</description>
+        <description>PinkPaddle</description>
         <Placemark>
           <name> </name>
           <description>Sally Test&lt;br&gt;
@@ -373,7 +513,7 @@ Lexington KY 40511 Fayette Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PinkPaddle</styleUrl>
           <Point>
             <coordinates>-84.491493, 38.087720,0.0</coordinates>
           </Point>
@@ -382,7 +522,7 @@ Lexington KY 40511 Fayette Co.&lt;br&gt;
       <Folder>
         <name>IndividualMembers</name>
         <open>1</open>
-        <description>BluePaddle</description>
+        <description>PurplePaddle</description>
         <Placemark>
           <name> </name>
           <description>Mary Ann Wells&lt;br&gt;
@@ -401,7 +541,7 @@ Sturgis KY 42459 Union Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-87.983914, 37.546714,0.0</coordinates>
           </Point>
@@ -424,7 +564,7 @@ Frankfort KY 40601 Franklin Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.832739, 38.104292,0.0</coordinates>
           </Point>
@@ -446,7 +586,7 @@ Franklin NC 28734</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-83.378983, 35.239012,0.0</coordinates>
           </Point>
@@ -471,7 +611,7 @@ Mason Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-83.824056, 38.567434,0.0</coordinates>
           </Point>
@@ -494,7 +634,7 @@ Georgetown Kentucky 40324 Scott Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.637550, 38.241375,0.0</coordinates>
           </Point>
@@ -517,7 +657,7 @@ Louisville KY 40229 Jefferson Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-85.626242, 38.088595,0.0</coordinates>
           </Point>
@@ -538,7 +678,7 @@ Mousie KY 41839 Knott Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-82.853293, 37.433398,0.0</coordinates>
           </Point>
@@ -559,7 +699,7 @@ Bowling Green KY 42101 Warren Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-86.633792, 37.028594,0.0</coordinates>
           </Point>
@@ -580,7 +720,7 @@ Bowling Green KY 42101 Warren Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-86.634174, 37.028592,0.0</coordinates>
           </Point>
@@ -602,7 +742,7 @@ Carlisle KY 40311 Nicholas Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.021419, 38.197525,0.0</coordinates>
           </Point>
@@ -624,7 +764,7 @@ West Chester PA 19380</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-75.723548, 39.960729,0.0</coordinates>
           </Point>
@@ -646,7 +786,7 @@ Melbourne KY 41059 Campbell Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.365102, 38.986746,0.0</coordinates>
           </Point>
@@ -668,7 +808,7 @@ Gulford IN 47022</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.918161, 39.247274,0.0</coordinates>
           </Point>
@@ -691,7 +831,7 @@ Morning View KY 41063 Kenton Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.540637, 38.830671,0.0</coordinates>
           </Point>
@@ -714,7 +854,7 @@ Lexington KY 40507 Fayette Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.490604, 38.042364,0.0</coordinates>
           </Point>
@@ -737,7 +877,7 @@ Louisville KY 40245 Jefferson Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-85.530575, 38.305712,0.0</coordinates>
           </Point>
@@ -760,7 +900,7 @@ Harrodsburg KY 40330 Mercer Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.801830, 37.821168,0.0</coordinates>
           </Point>
@@ -783,7 +923,7 @@ Paris KY 40361 Bourbon Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#PurplePaddle</styleUrl>
           <Point>
             <coordinates>-84.256569, 38.143602,0.0</coordinates>
           </Point>
@@ -792,7 +932,7 @@ Paris KY 40361 Bourbon Co.&lt;br&gt;
       <Folder>
         <name>CollegeAndYouth</name>
         <open>1</open>
-        <description>BluePaddle</description>
+        <description>RedPaddle</description>
         <Placemark>
           <name> </name>
           <description>Cathrin Walker&lt;br&gt;
@@ -811,7 +951,7 @@ Paris KY 40361 Bourbon Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#RedPaddle</styleUrl>
           <Point>
             <coordinates>-84.283115, 38.114563,0.0</coordinates>
           </Point>
@@ -833,7 +973,7 @@ Wilmore KY 40390 Jessamine Co.</description>
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#RedPaddle</styleUrl>
           <Point>
             <coordinates>-84.661820, 37.863042,0.0</coordinates>
           </Point>
@@ -856,7 +996,7 @@ Louisville KY 40207 Jefferson Co.&lt;br&gt;
             <altitudeMode>relativeToGround</altitudeMode>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
-          <styleUrl>#BluePaddle</styleUrl>
+          <styleUrl>#RedPaddle</styleUrl>
           <Point>
             <coordinates>-85.657177, 38.237121,0.0</coordinates>
           </Point>
