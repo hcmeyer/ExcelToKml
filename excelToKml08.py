@@ -74,13 +74,13 @@ class   MainWindow( QMainWindow):
     appMaxWidth     = ((3*appWidth)/2)
     appMaxHeight    = ((3*appHeight)/2)
 #    
-    topLeftWidth    = ((23*appWidth)/40)
+    topLeftWidth    = ((27*appWidth)/40)
     topRightWidth   = (appWidth-topLeftWidth)
     topHeight       = ((7*appHeight)/9)
     bottomHeight    = (appHeight-topHeight)
 #
-    minLabelHeight  = 10
-    maxLabelHeight  = 14
+    minLabelHeight  = 14
+    maxLabelHeight  = 20
 #
     desiredLabelAlign	    = Qt.AlignRight | Qt.AlignVCenter
     desiredContentsMargins	= QMargins( 2, 2, 2, 2)
@@ -1333,7 +1333,7 @@ class   MainWindow( QMainWindow):
 #
 #	Ginny wants an empty name, with name only in popup
 #
-            KML.name( " "),
+#           KML.name( " "),
             KML.description( fullDescriptionString),
             KML.LookAt(
                 KML.longitude( longitudeString),
