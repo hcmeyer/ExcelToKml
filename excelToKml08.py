@@ -74,10 +74,17 @@ class   MainWindow( QMainWindow):
     appMaxWidth     = ((3*appWidth)/2)
     appMaxHeight    = ((3*appHeight)/2)
 #    
-    topLeftWidth    = ((23*appWidth)/40)
+    topLeftWidth    = ((27*appWidth)/40)
     topRightWidth   = (appWidth-topLeftWidth)
-    topHeight       = ((8*appHeight)/9)
+    topHeight       = ((7*appHeight)/9)
     bottomHeight    = (appHeight-topHeight)
+#
+    minLabelHeight  = 14
+    maxLabelHeight  = 20
+#
+    desiredLabelAlign	    = Qt.AlignRight | Qt.AlignVCenter
+    desiredContentsMargins	= QMargins( 2, 2, 2, 2)
+    desiredLayoutSpacing    = 2
 #
     bluePaddle	    = [ "BluePaddle",
                         ":/Icon/blue-paddle-circle.png",
@@ -363,12 +370,18 @@ class   MainWindow( QMainWindow):
         self.horizSplitter.setSizes( [self.topLeftWidth,
                                       self.topRightWidth])
         # 
-        #       composite layout for top left, spreadsheet data 
-        #       outermost is vert box
+        #       grid layout with 6 cols
+        #       many rows have labels using 1 col of grid,
+		#		followed by edit controls using 2 cols of grid
+		#
+        self.spreadsheetGridLayout = QGridLayout( self.spreadsheetScrollAreaContents)
+        self.spreadsheetGridLayout.setObjectName( "spreadsheetGridLayout")
+		#
+        self.spreadsheetGridLayout.setContentsMargins( self.desiredContentsMargins)
+        self.spreadsheetGridLayout.setSpacing( self.desiredLayoutSpacing)
         #
-        self.verticalLayout = QVBoxLayout( self.spreadsheetScrollAreaContents)
-        self.verticalLayout.setContentsMargins( 3, 0, 3, 0)
-        self.verticalLayout.setObjectName( "verticalSpreadsheetLayout")
+        for i in range( 6):
+            self.spreadsheetGridLayout.setColumnMinimumWidth( i, (self.topLeftWidth/6))
         #
         #       these labels appear above the grid of labels
         #       and edit controls for spreadsheet data
@@ -379,53 +392,43 @@ class   MainWindow( QMainWindow):
         self.fileNameLabel = QLabel()
         self.fileNameLabel.setText( "File: Name")
         self.fileNameLabel.setObjectName( "fileNameLabel")
-        self.fileNameLabel.setMinimumHeight( 20)
+        self.fileNameLabel.setMinimumHeight( 2*self.minLabelHeight)
+        self.fileNameLabel.setMaximumHeight( 2*self.maxLabelHeight)
         self.fileNameLabel.setWordWrap( True)
         #
-        self.verticalLayout.addWidget( self.fileNameLabel)
+        self.spreadsheetGridLayout.addWidget( self.fileNameLabel, 0, 0, 2, 6)
         #        
         self.sheetNameLabel = QLabel()
         self.sheetNameLabel.setText( "Sheet: Name")
+        self.sheetNameLabel.setMinimumHeight( self.minLabelHeight)
+        self.sheetNameLabel.setMaximumHeight( self.maxLabelHeight)
         self.sheetNameLabel.setObjectName( "sheetNameLabel")
         #
-        self.verticalLayout.addWidget( self.sheetNameLabel)
-        #
-        #       inside of vert box layout is 
-        #       grid layout with 5 cols
-        #       one row, addresses, has 6 cols in 
-        #       an embedded horiz box layout
-        #        
-        self.spreadsheetGridLayout = QGridLayout( )
-        self.spreadsheetGridLayout.setObjectName( "spreadsheetGridLayout")
-        for i in range( 6):
-            self.spreadsheetGridLayout.setColumnMinimumWidth( i, (self.topRightWidth/6))
-        #
-        self.verticalLayout.addLayout( self.spreadsheetGridLayout)
+        self.spreadsheetGridLayout.addWidget( self.sheetNameLabel, 2, 0, 1, 6)    
         #
         #       first row of grid is sheet count and controls
-        #        
+        #		embedded HBox, only 4 col, but uses 6 cols in container       
         #
-        self.sheetControlLayout = QHBoxLayout( )
-        #        
         self.prevSheetButton = QPushButton()
         self.prevSheetButton.setText( "Prev Sheet")
         self.prevSheetButton.setObjectName( "prevSheetButton")
         self.prevSheetButton.setIcon( QIcon(":/Icon/back.png"))
         self.prevSheetButton.setToolTip( "Goto Previous Worksheet")
         self.prevSheetButton.setEnabled( False)
-        self.sheetControlLayout.addWidget( self.prevSheetButton)
+        self.spreadsheetGridLayout.addWidget( self.prevSheetButton, 3, 0, 1, 1)
         #
         self.sheetNofMlabel = QLabel()
+        self.sheetNofMlabel.setAlignment( Qt.AlignCenter)
         self.sheetNofMlabel.setText( "Sheet N of M")
         self.sheetNofMlabel.setObjectName( "sheetNofMlabel")
-        self.sheetControlLayout.addWidget( self.sheetNofMlabel)
+        self.spreadsheetGridLayout.addWidget( self.sheetNofMlabel, 3, 1, 1, 2)
         #
         self.sheetIconDropdown  = QComboBox()
         for kfi in self.kmlFolderIcons:
             self.sheetIconDropdown.addItem( QIcon(kfi[1]), QString( kfi[0]))    
         self.sheetIconDropdown.setObjectName( "sheetIconDropdown")
         self.sheetIconDropdown.setEnabled( False)
-        self.sheetControlLayout.addWidget( self.sheetIconDropdown)
+        self.spreadsheetGridLayout.addWidget( self.sheetIconDropdown, 3, 3, 1, 2)
         #
         self.nextSheetButton = QPushButton()
         self.nextSheetButton.setText( "Next Sheet")
@@ -433,150 +436,142 @@ class   MainWindow( QMainWindow):
         self.nextSheetButton.setIcon( QIcon(":/Icon/forward.png"))
         self.nextSheetButton.setToolTip( "Goto Next Worksheet")
         self.nextSheetButton.setEnabled( False)
-        self.sheetControlLayout.addWidget( self.nextSheetButton)
-        #
-        self.spreadsheetGridLayout.addLayout( self.sheetControlLayout, 0, 0, 1, 6)
+        self.spreadsheetGridLayout.addWidget( self.nextSheetButton, 3, 5, 1, 1)
         #
         #       spreadsheet row data
         #
         self.firstNameLabel = QLabel()
         self.firstNameLabel.setText( "First Name:")
-        self.firstNameLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.firstNameLabel.setAlignment( self.desiredLabelAlign)
         self.firstNameLabel.setObjectName( "firstNameLabel")
-        self.spreadsheetGridLayout.addWidget( self.firstNameLabel, 1, 0, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.firstNameLabel, 4, 0, 1, 1)
         #
         self.firstNameEdit = QLineEdit()
         self.firstNameEdit.setObjectName( "firstNameEdit")
-        self.spreadsheetGridLayout.addWidget( self.firstNameEdit, 1, 1, 1, 2)
+        self.spreadsheetGridLayout.addWidget( self.firstNameEdit, 4, 1, 1, 2)
         #
         self.lastNameLabel = QLabel()
         self.lastNameLabel.setText( "Last Name:")
-        self.lastNameLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)                
+        self.lastNameLabel.setAlignment( self.desiredLabelAlign)                
         self.lastNameLabel.setObjectName( "lastNameLabel")
-        self.spreadsheetGridLayout.addWidget( self.lastNameLabel, 1, 3, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.lastNameLabel, 4, 3, 1, 1)
         #
         self.lastNameEdit = QLineEdit()
         self.lastNameEdit.setObjectName( "lastNameEdit")
-        self.spreadsheetGridLayout.addWidget( self.lastNameEdit, 1, 4, 1, 2)
+        self.spreadsheetGridLayout.addWidget( self.lastNameEdit, 4, 4, 1, 2)
         #
         self.descriptionLabel = QLabel()
         self.descriptionLabel.setText( "Description:")
-        self.descriptionLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.descriptionLabel.setAlignment( self.desiredLabelAlign)
         self.descriptionLabel.setObjectName( "descriptionLabel")
-        self.spreadsheetGridLayout.addWidget( self.descriptionLabel, 2, 0, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.descriptionLabel, 5, 0, 1, 1)
         #
         self.descriptionTextEdit = QPlainTextEdit()
         self.descriptionTextEdit.setMaximumSize( QSize(16777215, 60))
         self.descriptionTextEdit.setObjectName( "descriptionTextEdit")
-        self.spreadsheetGridLayout.addWidget( self.descriptionTextEdit, 2, 1, 2, 5)
+        self.spreadsheetGridLayout.addWidget( self.descriptionTextEdit, 5, 1, 1, 5)
         #
         self.streetLabel = QLabel()
         self.streetLabel.setText( "Street:")
-        self.streetLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.streetLabel.setAlignment( self.desiredLabelAlign)
         self.streetLabel.setObjectName( "streetLabel")
-        self.spreadsheetGridLayout.addWidget( self.streetLabel, 4, 0, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.streetLabel, 6, 0, 1, 1)
         #
         self.streetEdit = QLineEdit()
         self.streetEdit.setObjectName( "streetEdit")
-        self.spreadsheetGridLayout.addWidget( self.streetEdit, 4, 1, 1, 2)
+        self.spreadsheetGridLayout.addWidget( self.streetEdit, 6, 1, 1, 2)
         #        
         self.townLabel = QLabel()
         self.townLabel.setText( "Town:")
-        self.townLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.townLabel.setAlignment( self.desiredLabelAlign)
         self.townLabel.setObjectName( "townLabel")
-        self.spreadsheetGridLayout.addWidget( self.townLabel, 4, 3, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.townLabel, 6, 3, 1, 1)
         #
         self.townEdit = QLineEdit()
         self.townEdit.setObjectName( "townEdit")
-        self.spreadsheetGridLayout.addWidget( self.townEdit, 4, 4, 1, 2)
+        self.spreadsheetGridLayout.addWidget( self.townEdit, 6, 4, 1, 2)
         #
         self.countyLabel = QLabel()
         self.countyLabel.setText( "County:")
-        self.countyLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.countyLabel.setAlignment( self.desiredLabelAlign)
         self.countyLabel.setObjectName( "countyLabel")
-        self.spreadsheetGridLayout.addWidget( self.countyLabel, 5, 0, 1, 1)
-        #
+        self.spreadsheetGridLayout.addWidget( self.countyLabel, 7, 0, 1, 1)
+        8
         self.countyEdit = QLineEdit()
         self.countyEdit.setObjectName( "countyEdit")
-        self.spreadsheetGridLayout.addWidget( self.countyEdit, 5, 1, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.countyEdit, 7, 1, 1, 1)
         #
         self.stateLabel = QLabel()
         self.stateLabel.setText( "State:")
-        self.stateLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.stateLabel.setAlignment( self.desiredLabelAlign)
         self.stateLabel.setObjectName( "stateLabel")
-        self.spreadsheetGridLayout.addWidget( self.stateLabel, 5, 2, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.stateLabel, 7, 2, 1, 1)
         #
         self.stateEdit = QLineEdit()
         self.stateEdit.setObjectName( "stateEdit")
-        self.spreadsheetGridLayout.addWidget( self.stateEdit, 5, 3, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.stateEdit, 7, 3, 1, 1)
         #
         self.zipLabel = QLabel()
         self.zipLabel.setText( "Zip:")
-        self.zipLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.zipLabel.setAlignment( self.desiredLabelAlign)
         self.zipLabel.setObjectName( "zipLabel")
-        self.spreadsheetGridLayout.addWidget( self.zipLabel, 5, 4, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.zipLabel, 7, 4, 1, 1)
         #
         self.zipEdit = QLineEdit()
         self.zipEdit.setObjectName( "zipEdit")
-        self.spreadsheetGridLayout.addWidget( self.zipEdit, 5, 5, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.zipEdit, 7, 5, 1, 1)
         #
         #-------------------------------------------------------------        
         #
         self.telephoneLabel = QLabel()
         self.telephoneLabel.setText( "Telephone:")
-        self.telephoneLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.telephoneLabel.setAlignment( self.desiredLabelAlign)
         self.telephoneLabel.setObjectName( "telephoneLabel")
-        self.spreadsheetGridLayout.addWidget( self.telephoneLabel, 6, 0, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.telephoneLabel, 8, 0, 1, 1)
         #
         self.telephoneEdit = QLineEdit()
         self.telephoneEdit.setObjectName( "telephoneEdit")
-        self.spreadsheetGridLayout.addWidget( self.telephoneEdit, 6, 1, 1, 2)
-        #
+        self.spreadsheetGridLayout.addWidget( self.telephoneEdit, 8, 1, 1, 2)
         #
         self.eMailLabel = QLabel()
         self.eMailLabel.setText( "E-mail:")
-        self.eMailLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)                
+        self.eMailLabel.setAlignment( self.desiredLabelAlign)                
         self.eMailLabel.setObjectName( "eMailLabel")
-        self.spreadsheetGridLayout.addWidget( self.eMailLabel, 6, 3, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.eMailLabel, 8, 3, 1, 1)
         #
         self.eMailEdit = QLineEdit()
         self.eMailEdit.setObjectName( "eMailEdit")
-        self.spreadsheetGridLayout.addWidget( self.eMailEdit, 6, 4, 1, 2)
+        self.spreadsheetGridLayout.addWidget( self.eMailEdit, 8, 4, 1, 2)
         #
         self.websiteLabel = QLabel()
         self.websiteLabel.setText( "Website:")
-        self.websiteLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)        
+        self.websiteLabel.setAlignment( self.desiredLabelAlign)        
         self.websiteLabel.setObjectName( "websiteLabel")
-        self.spreadsheetGridLayout.addWidget( self.websiteLabel, 7, 0, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.websiteLabel, 9, 0, 1, 1)
         #
         self.websiteEdit = QLineEdit()
         self.websiteEdit.setObjectName( "websiteEdit")
-        self.spreadsheetGridLayout.addWidget( self.websiteEdit, 7, 1, 1, 5)
-        #        
-        self.bottomGridLayout = QGridLayout( )
-        self.bottomGridLayout.setObjectName( "bottomGridLayout")
-        for i in range( 5):
-            self.bottomGridLayout.setColumnMinimumWidth( i, (self.topRightWidth/5))
+        self.spreadsheetGridLayout.addWidget( self.websiteEdit, 9, 1, 1, 5)
         #
         self.latitudeLabel = QLabel()
         self.latitudeLabel.setText( "Latitude:")
-        self.latitudeLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.latitudeLabel.setAlignment( self.desiredLabelAlign)
         self.latitudeLabel.setObjectName( "latitudeLabel")
-        self.bottomGridLayout.addWidget( self.latitudeLabel, 0, 0, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.latitudeLabel, 10, 0, 1, 1)
         #
         self.latitudeEdit = QLineEdit()
         self.latitudeEdit.setObjectName( "latitudeEdit")
-        self.bottomGridLayout.addWidget( self.latitudeEdit, 0, 1, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.latitudeEdit, 10, 1, 1, 1)
         #
         self.longitudeLabel = QLabel()
         self.longitudeLabel.setText( "Longitude:")
-        self.longitudeLabel.setAlignment( Qt.AlignRight | Qt.AlignVCenter)
+        self.longitudeLabel.setAlignment( self.desiredLabelAlign)
         self.longitudeLabel.setObjectName( "longitudeLabel")
-        self.bottomGridLayout.addWidget( self.longitudeLabel, 0, 2, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.longitudeLabel, 10, 2, 1, 1)
         #
         self.longitudeEdit = QLineEdit()
         self.longitudeEdit.setObjectName( "longitudeEdit")
-        self.bottomGridLayout.addWidget( self.longitudeEdit, 0, 3, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.longitudeEdit, 10, 3, 1, 1)
         #
         self.lookupGeoCodeButton = QPushButton()
         self.lookupGeoCodeButton.setText( "Lookup")
@@ -584,7 +579,7 @@ class   MainWindow( QMainWindow):
         self.lookupGeoCodeButton.setIcon( QIcon(":/Icon/geocode.png"))
         self.lookupGeoCodeButton.setToolTip( "Lookup latitude, longitude for this row")
         self.lookupGeoCodeButton.setEnabled( False)
-        self.bottomGridLayout.addWidget( self.lookupGeoCodeButton, 0, 4, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.lookupGeoCodeButton, 10, 5, 1, 1)
         #
         #       last row is row count and controls
         # 
@@ -594,7 +589,7 @@ class   MainWindow( QMainWindow):
         self.prevRowButton.setIcon( QIcon(":/Icon/back.png"))
         self.prevRowButton.setToolTip( "Goto Previous Row")
         self.prevRowButton.setEnabled( False)
-        self.bottomGridLayout.addWidget( self.prevRowButton, 1, 0, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.prevRowButton, 11, 0, 1, 1)
         #
         self.undoRowButton = QPushButton()
         self.undoRowButton.setText( "Undo  ")
@@ -602,12 +597,13 @@ class   MainWindow( QMainWindow):
         self.undoRowButton.setIcon( QIcon(":/Icon/undo.png"))
         self.undoRowButton.setToolTip( "Undo changes to this row")
         self.undoRowButton.setEnabled( False)
-        self.bottomGridLayout.addWidget( self.undoRowButton, 1, 1, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.undoRowButton, 11, 1, 1, 1)
         #
         self.rowNofMlabel = QLabel()
+        self.rowNofMlabel.setAlignment( Qt.AlignCenter)
         self.rowNofMlabel.setText( "Row N of M")
         self.rowNofMlabel.setObjectName( "rowNofMlabel")
-        self.bottomGridLayout.addWidget( self.rowNofMlabel, 1, 2, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.rowNofMlabel, 11, 2, 1, 2)
         #
         self.updateRowButton = QPushButton()
         self.updateRowButton.setText( "Update")
@@ -615,7 +611,7 @@ class   MainWindow( QMainWindow):
         self.updateRowButton.setToolTip( "Update this row with changes")
         self.updateRowButton.setIcon( QIcon(":/Icon/update.png"))
         self.updateRowButton.setEnabled( False)
-        self.bottomGridLayout.addWidget( self.updateRowButton, 1, 3, 1, 1)
+        self.spreadsheetGridLayout.addWidget( self.updateRowButton, 11, 4, 1, 1)
         #
         self.nextRowButton = QPushButton()
         self.nextRowButton.setText( "Next Row")
@@ -623,10 +619,7 @@ class   MainWindow( QMainWindow):
         self.nextRowButton.setIcon( QIcon(":/Icon/forward.png"))
         self.nextRowButton.setToolTip( "Goto next row")
         self.nextRowButton.setEnabled( False)
-        self.bottomGridLayout.addWidget( self.nextRowButton, 1, 4, 1, 1)
-        # 
-        #
-        self.spreadsheetGridLayout.addLayout( self.bottomGridLayout, 9, 0, 2, 6)
+        self.spreadsheetGridLayout.addWidget( self.nextRowButton, 11, 5, 1, 1)
         #        
         return
         
@@ -1340,7 +1333,7 @@ class   MainWindow( QMainWindow):
 #
 #	Ginny wants an empty name, with name only in popup
 #
-            KML.name( " "),
+#           KML.name( " "),
             KML.description( fullDescriptionString),
             KML.LookAt(
                 KML.longitude( longitudeString),

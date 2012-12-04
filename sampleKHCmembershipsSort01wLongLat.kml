@@ -173,13 +173,12 @@
     <Folder>
       <name>sampleKHCmembershipsSort01wLongLat</name>
       <open>1</open>
-      <description>third test, new placemark, icons</description>
+      <description>no names in placemarks</description>
       <Folder>
         <name>BusinessMembers</name>
         <open>1</open>
         <description>BluePaddle</description>
         <Placemark>
-          <name> </name>
           <description>Angela Spiers&lt;br&gt;
 Business Membership: Small - Less Than 15 Employees&lt;br&gt;
 &lt;a href="mailto:spiers.angela@gmail.com"&gt; spiers.angela@gmail.com &lt;/a&gt;&lt;br&gt;
@@ -202,7 +201,6 @@ Lexington KY 40515 Fayette Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Arnold Kirkpatrick&lt;br&gt;
 Business Membership: Small - Less Than 15 Employees&lt;br&gt;
 &lt;a href="mailto:Arnold@Kirkfarms.com"&gt; Arnold@Kirkfarms.com &lt;/a&gt;&lt;br&gt;
@@ -226,7 +224,6 @@ Lexington KY 40588 Fayette Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Stephen Magee&lt;br&gt;
 Business Membership: Small - Less Than 15 Employees&lt;br&gt;
 &lt;a href="mailto:smagee@koettersmith.com"&gt; smagee@koettersmith.com &lt;/a&gt;&lt;br&gt;
@@ -255,7 +252,6 @@ Borden IN 47106 Floyd Co.&lt;br&gt;
         <open>1</open>
         <description>GreenPaddle</description>
         <Placemark>
-          <name> </name>
           <description>Edward &amp; Lucinda Martin&lt;br&gt;
 Family Members w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:woomar@fuse.net"&gt; woomar@fuse.net &lt;/a&gt;&lt;br&gt;
@@ -278,7 +274,6 @@ Alexandria KY 41001 Campbell Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Renee Roberts&lt;br&gt;
 Family Members w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:renee@gtown.org"&gt; renee@gtown.org &lt;/a&gt;&lt;br&gt;
@@ -303,7 +298,6 @@ Scott Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Carol &amp; Jeff Sole&lt;br&gt;
 Family Members w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:kysoles@hughes.net"&gt; kysoles@hughes.net &lt;/a&gt;&lt;br&gt;
@@ -326,7 +320,6 @@ Frankfort KY 40601 Franklin Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Bryan Kellermann&lt;br&gt;
 Family Members w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:bkellermann@fuse.net"&gt; bkellermann@fuse.net &lt;/a&gt;&lt;br&gt;
@@ -349,7 +342,6 @@ California KY 41007 Campbell Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Charles &amp; Patricia Parker&lt;br&gt;
 Family Members w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:ccp2468@aol.com"&gt; ccp2468@aol.com &lt;/a&gt;&lt;br&gt;
@@ -371,7 +363,6 @@ Melbourne KY 41059 Campbell Co.</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Beth &amp; Bruno Lanman&lt;br&gt;
 Family Members w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:giddyup2@gmail.com"&gt; giddyup2@gmail.com &lt;/a&gt;&lt;br&gt;
@@ -393,7 +384,6 @@ Covington KY 41016 Kenton Co.</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>David &amp; Patti Rust&lt;br&gt;
 Family Members w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:d.rust@insightbb.com"&gt; d.rust@insightbb.com &lt;/a&gt;&lt;br&gt;
@@ -415,7 +405,6 @@ Cold Spring KY 41076 Campbell Co.</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Dan &amp; Cathy Feldmann&lt;br&gt;
 Family Members w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:dt514@fuse.net"&gt; dt514@fuse.net &lt;/a&gt;&lt;br&gt;
@@ -442,7 +431,6 @@ Alexandria KY 41001 Campbell Co.</description>
         <open>1</open>
         <description>LightBluePaddle</description>
         <Placemark>
-          <name> </name>
           <description>Jan Weber&lt;br&gt;
 Farm Membership: Small - Less Than 15 Employees&lt;br&gt;
 &lt;a href="mailto:janmweber@gmail.com"&gt; janmweber@gmail.com &lt;/a&gt;&lt;br&gt;
@@ -467,7 +455,6 @@ Bourbon Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Ginger Sanders&lt;br&gt;
 Farm Membership: Small - Less Than 15 Employees&lt;br&gt;
 &lt;a href="mailto:gingers@sascoatings.com"&gt; gingers@sascoatings.com &lt;/a&gt;&lt;br&gt;
@@ -496,7 +483,6 @@ Lawrenceburg KY 40342 Anderson Co.&lt;br&gt;
         <open>1</open>
         <description>PinkPaddle</description>
         <Placemark>
-          <name> </name>
           <description>Sally Test&lt;br&gt;
 Horse Rescue Membership&lt;br&gt;
 &lt;a href="mailto:sally@test.com"&gt; sally@test.com &lt;/a&gt;&lt;br&gt;
@@ -524,7 +510,6 @@ Lexington KY 40511 Fayette Co.&lt;br&gt;
         <open>1</open>
         <description>PurplePaddle</description>
         <Placemark>
-          <name> </name>
           <description>Mary Ann Wells&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:mawells@connectgradd.net"&gt; mawells@connectgradd.net &lt;/a&gt;&lt;br&gt;
@@ -547,7 +532,6 @@ Sturgis KY 42459 Union Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Peggy Entrekin&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:Peggy0471@gmail.com"&gt; Peggy0471@gmail.com &lt;/a&gt;&lt;br&gt;
@@ -570,7 +554,6 @@ Frankfort KY 40601 Franklin Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Christian Frolund&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:chris@frolund.com"&gt; chris@frolund.com &lt;/a&gt;&lt;br&gt;
@@ -592,7 +575,6 @@ Franklin NC 28734</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Leslie Perry-Collins&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:lrp_15@hotmail.com"&gt; lrp_15@hotmail.com &lt;/a&gt;&lt;br&gt;
@@ -617,7 +599,6 @@ Mason Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Philip Sims&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:simsx4@bellsouth.net"&gt; simsx4@bellsouth.net &lt;/a&gt;&lt;br&gt;
@@ -640,7 +621,6 @@ Georgetown Kentucky 40324 Scott Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Nina Morris&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:gnmorrisjd@bellsouth.net"&gt; gnmorrisjd@bellsouth.net &lt;/a&gt;&lt;br&gt;
@@ -663,7 +643,6 @@ Louisville KY 40229 Jefferson Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Mark Conley&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 PO Box 23&lt;br&gt;
@@ -684,7 +663,6 @@ Mousie KY 41839 Knott Co.</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Rita Ellis&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 3881 Jackson Bridge Rd.&lt;br&gt;
@@ -705,7 +683,6 @@ Bowling Green KY 42101 Warren Co.</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Freda Ellis&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 3903 Jackson Bridge Rd.&lt;br&gt;
@@ -726,7 +703,6 @@ Bowling Green KY 42101 Warren Co.</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Erin Perdue&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:horsinaround@bellsouth.net"&gt; horsinaround@bellsouth.net &lt;/a&gt;&lt;br&gt;
@@ -748,7 +724,6 @@ Carlisle KY 40311 Nicholas Co.</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Stephanie Dahne&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:slewbee@comcast.net"&gt; slewbee@comcast.net &lt;/a&gt;&lt;br&gt;
@@ -770,7 +745,6 @@ West Chester PA 19380</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Joia Wolfe&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 1892 Poplar Ridge Rd&lt;br&gt;
@@ -792,7 +766,6 @@ Melbourne KY 41059 Campbell Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Joan Gray&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:jwpequines@aol.com"&gt; jwpequines@aol.com &lt;/a&gt;&lt;br&gt;
@@ -814,7 +787,6 @@ Gulford IN 47022</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Monica Egger&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:monica.egger@yahoo.com"&gt; monica.egger@yahoo.com &lt;/a&gt;&lt;br&gt;
@@ -837,7 +809,6 @@ Morning View KY 41063 Kenton Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Elizabeth Collins&lt;br&gt;
 Individual Member w/ Insurance (Old Type)&lt;br&gt;
 &lt;a href="mailto:recollins@midway.edu"&gt; recollins@midway.edu &lt;/a&gt;&lt;br&gt;
@@ -860,7 +831,6 @@ Lexington KY 40507 Fayette Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Cynthia Kulfan&lt;br&gt;
 Individual Membership&lt;br&gt;
 &lt;a href="mailto:vesta910@yahoo.com"&gt; vesta910@yahoo.com &lt;/a&gt;&lt;br&gt;
@@ -883,7 +853,6 @@ Louisville KY 40245 Jefferson Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Deborah Klinkner&lt;br&gt;
 Individual Membership&lt;br&gt;
 &lt;a href="mailto:eskielover@burginwireless.com"&gt; eskielover@burginwireless.com &lt;/a&gt;&lt;br&gt;
@@ -906,7 +875,6 @@ Harrodsburg KY 40330 Mercer Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Sharon Vanderziel&lt;br&gt;
 Individual Membership&lt;br&gt;
 &lt;a href="mailto:windschant@bellsouth.net"&gt; windschant@bellsouth.net &lt;/a&gt;&lt;br&gt;
@@ -934,7 +902,6 @@ Paris KY 40361 Bourbon Co.&lt;br&gt;
         <open>1</open>
         <description>RedPaddle</description>
         <Placemark>
-          <name> </name>
           <description>Cathrin Walker&lt;br&gt;
 Youth &amp; College Students&lt;br&gt;
 &lt;a href="mailto:lufteplong@gmail.com"&gt; lufteplong@gmail.com &lt;/a&gt;&lt;br&gt;
@@ -957,7 +924,6 @@ Paris KY 40361 Bourbon Co.&lt;br&gt;
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Leah Sheldon&lt;br&gt;
 Youth &amp; College Students&lt;br&gt;
 &lt;a href="mailto:leah.sheldon@asbury.edu"&gt; leah.sheldon@asbury.edu &lt;/a&gt;&lt;br&gt;
@@ -979,7 +945,6 @@ Wilmore KY 40390 Jessamine Co.</description>
           </Point>
         </Placemark>
         <Placemark>
-          <name> </name>
           <description>Natalie Heitz&lt;br&gt;
 Youth &amp; College Students&lt;br&gt;
 &lt;a href="mailto:nmheit2@uky.edu"&gt; nmheit2@uky.edu &lt;/a&gt;&lt;br&gt;
