@@ -74,16 +74,16 @@ class   MainWindow( QMainWindow):
     appMaxWidth     = ((3*appWidth)/2)
     appMaxHeight    = ((3*appHeight)/2)
 #    
-    topLeftWidth    = ((27*appWidth)/40)
+    topLeftWidth    = ((30*appWidth)/40)
     topRightWidth   = (appWidth-topLeftWidth)
     topHeight       = ((7*appHeight)/9)
     bottomHeight    = (appHeight-topHeight)
 #
-    minLabelHeight  = 14
-    maxLabelHeight  = 20
+    minLabelHeight  = 15
+    maxLabelHeight  = 22
 #
     desiredLabelAlign	    = Qt.AlignRight | Qt.AlignVCenter
-    desiredContentsMargins	= QMargins( 2, 2, 2, 2)
+    desiredContentsMargins  = QMargins( 2, 2, 2, 2)
     desiredLayoutSpacing    = 2
 #
     bluePaddle	    = [ "BluePaddle",
@@ -1042,7 +1042,7 @@ class   MainWindow( QMainWindow):
         return
 
     def helpHelp( self):
-        #hForm = helpform.HelpForm( ":/Help/index.html", self)
+        # helpform will prepend qrc stuff
         hForm = helpform.HelpForm( "Help/index.html", self)
         hForm.show()
         return
@@ -1123,9 +1123,6 @@ class   MainWindow( QMainWindow):
         (containerDescriptionText, ok) = QInputDialog.getText( self,
                                                                "Kml Container Folder",
                                             "Input a Description for\n the Container Folder:")
-        #
-        #containerFolder = self.kmlContainerFolder(  'Horse Camps',
-        #                                            'Overnight Horse Camps in Kentucky')
         #
         baseName = os.path.basename( self.baseFileName)
         #
@@ -1854,6 +1851,7 @@ class   MainWindow( QMainWindow):
             #
             #   enable kml file save action
             #   kml fileSaveAs action is enabled whenever tree is not none
+	        #
             self.updateKmlActions()
             #
             return True
