@@ -1,0 +1,61 @@
+
+File: ExcelToKml/Install/Py2exe/readMe.text 
+
+Description of the py2exe program used to
+produce a Windows single file version of the
+excelToKml.py python program.
+
+See: http://www.py2exe.org/
+
+Py2exe is a python distutils extension program 
+that produces an executable Windows program from
+a python script that dows not require a python
+installation on the Windows system.
+
+It works by reading the ExcelToKml python
+script, performing two tasks:
+
+1) partially compiling the python script, so it
+can be executed by a small python interpreter,
+packed with the compiled script.
+
+2) identifying imports, and extracting the
+imported code from the python environment, 
+collecting them, and writing them out in a form
+that can be used by the python interpreter.
+
+I chose to perform a third task, packing all the
+data into a single, large, (about 41 mByte) .exe
+file.
+
+To control the py2exe program, there is an
+options file, named setup.py. This is actually
+a piece of the normal disutils system.
+
+This options file is actually a chunk of python
+code, executed by the python interpreter. It is
+invoked as:
+
+python setup.py py2exe
+
+the actual program being run is the setup.py
+program, with the py2exe program passed to it
+as an argument.
+
+The file, elsewhere in this dir has two parts,
+imports of py2exe and setup, and options passed
+to these two. The syntax of the options was very
+confusing to me until I realized the options are
+actually python code, and are a list and a dict,
+in the usual source formats. 
+
+See: http://www.py2exe.org/index.cgi/ListOfOptions
+
+for a better explanation.
+
+The options I supplied are includes, to get 
+py2exe to include some modules it misses, and
+bundling options to get a single executable 
+file. See setup.py for details.
+ 
+

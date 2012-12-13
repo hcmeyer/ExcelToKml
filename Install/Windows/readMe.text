@@ -1,0 +1,39 @@
+
+file: ExcelToKml\Install\Windows\readMe.text
+
+HowTo install this program on Windows (Single File version)
+
+This directory contains the files needed to install this program on a typical Windows system (Windows 95, Windows XP, Windows 7, probably Windows 8, untested).
+
+The first file is vcredist_x86.exe. This is a MicroSoft redistributable file, needed to support
+software compiled with the MicroSoft visual c++ compiler, such as the python interpreter used here.
+You may already have a copy of this software on your system.
+
+The second is a large file, excelToKml.exe, containing the python program, and needed support files.
+This file is large, about 41 mByte. The alternative to this large file would be a large number of
+smaller files. I chose to pack it as single large file.
+
+There is also a file, w9xopen.exe. This allows the program to be used on Windows95, 98 or Windows
+ME. It is not needed for later versions of Windows.
+
+To install:
+
+The vcredist_x86 is a MicroSoft installer. It is installed by double-clicking it, in an Explorer
+window, on the distribution disk. The file does not need to be copied, it only needs to be run 
+once. It will open a window, asking you to install it. If you have installed other software that
+was compiled with MicroSoft Visual C++, it may tell you this file is already installed, and not needed. If so, follow the recommendation and cancel. After installation, at some later time,
+Windows update may ask to update this file. This is normal, and should be updated.
+
+The excelToKml.exe file should be copied to your system, to a directory you have read-write
+permission for. After copying, execute the program by double clicking the file. You should see
+a large window, with the edit form and controls. Use the "Help" menu item for instructions on
+using the program.
+
+If the program Window does not appear, look for a log file created in the directory, with error
+messages, or open a Command Prompt in the directiory, and run the program by typing its name,
+excelToKml. Error messages will appear in this command prompt window. Please copy or write down
+these error messages, and contact me by eMail at hcmeyer@gmail.com for help.
+
+There is also a sample .xls file, a spreadsheet with sample data, to show the correct column format.
+It can be opened by the program, and a .kml file produced, to show how the program works.
+
